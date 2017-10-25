@@ -1,0 +1,3161 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/21/2017 11:45:33 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-T3A8F6F5"
+  DTS:CreatorName="LAPTOP-T3A8F6F5\Johan Duran Cerdas"
+  DTS:DTSID="{5A13B1DF-74FE-4119-B1E8-D8110E177939}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.60"
+  DTS:LocaleID="5130"
+  DTS:ObjectName="FactLoad"
+  DTS:PackageType="5"
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{6E5D5F50-2739-4196-BB2F-E0A6A186E287}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{946B7B3D-D392-41E4-86C6-A7A4F3452975}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\kenca\source\repos\MDPracticasOLAP\Error Fact_Table.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{7EC80DBD-8C03-4CB8-AE5F-EA169CCC184B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DueDate"
+              DTS:DTSID="{54964837-5189-4AE6-8170-026A6EDA95AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipDate"
+              DTS:DTSID="{693AD08A-3533-40F6-8FCF-F87CFC0DF563}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductKey"
+              DTS:DTSID="{73A6D83A-AB8C-41F9-B578-CFA38870058D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesTerritory"
+              DTS:DTSID="{7E156D48-ED5A-4509-8D33-3A566333EA49}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesPersonTerritory"
+              DTS:DTSID="{84E10D11-DE29-49D9-91C2-737DD67804D8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BillTo"
+              DTS:DTSID="{8877D8A6-0A70-4CEB-86D4-559E1A397317}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipTo"
+              DTS:DTSID="{0BF42913-CCA4-4D42-B3D7-46D456EC060A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesPersonKey"
+              DTS:DTSID="{F274EAB2-81FD-484D-91DB-0525B082294E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StoreKey"
+              DTS:DTSID="{621C46DC-7EF9-48DD-9A25-02466B66F24C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OnlineOrderFlag"
+              DTS:DTSID="{A6E28319-7192-40BC-A7E7-17E775A69262}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesOrderID"
+              DTS:DTSID="{1B1A0456-7153-4353-9608-8BA3AB898032}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{650CC694-0C1F-46B8-933E-5F0CC46FB4F8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderQty"
+              DTS:DTSID="{3E571533-EE2B-4B5A-890F-2FCD883CBE01}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="38"
+              DTS:DataScale="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LineTotal"
+              DTS:DTSID="{134115E6-7820-4DFD-9CF3-9E58362D4C10}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{AEDD7C12-95DA-408F-9BBD-B791435CDB84}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{203AB10B-2E65-49E2-8421-384ED032F56E}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{6548A5F4-6714-4F58-9747-F722E4CE96AF}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3082"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\kenca\source\repos\MDPracticasOLAP\Error Territorio del Vendedor Online.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{7C341B5C-8158-40AF-B453-607420C54678}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DueDate"
+              DTS:DTSID="{76C83696-7617-41EB-8813-B38B4DE48492}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipDate"
+              DTS:DTSID="{8CFDE435-CBA1-4830-A0DB-6642E4C9DBCF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductKey"
+              DTS:DTSID="{7B2BEC1B-54D0-409F-9CAA-E4A1ABAFF067}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesTerritory"
+              DTS:DTSID="{F1756F1F-28FF-41C5-992A-99AD3CFE095D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesPersonTerritory"
+              DTS:DTSID="{96C96D5F-29F6-496F-A28F-044CCB27ACF5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BillTo"
+              DTS:DTSID="{81183CD0-B157-44CC-9D03-D9C96FF2E050}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ShipTo"
+              DTS:DTSID="{385EAE49-EEC7-48F3-AB51-8E12C15B5432}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OnlineOrderFlag"
+              DTS:DTSID="{E30B48A9-B7E9-4040-98AE-6D0A3567817D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesOrderID"
+              DTS:DTSID="{928EAE72-E669-42FF-8C27-CAD062B789CC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{034FFDB5-6E8A-4A2B-AE01-D0988DFCD5F6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="2"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderQty"
+              DTS:DTSID="{691CEBCB-E3DC-4C5E-B66B-17F2C1F29A25}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="38"
+              DTS:DataScale="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LineTotal"
+              DTS:DTSID="{2E4D817B-FCA7-4AD4-9384-FD13A7D2078C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SalesPersonKey"
+              DTS:DTSID="{416A020B-11AF-4789-B453-09A8A21045FE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StoreKey"
+              DTS:DTSID="{40400077-A1DA-45C2-9AE9-256F84DBBDF0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{3E01E541-1E69-4690-AB6A-4F1843454CC8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{A7F23459-5CB9-4043-BF4D-B7A0360275D5}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{41EA0037-3102-4D6F-8183-6615FD8E754E}"
+      DTS:ObjectName="KENNETHCALVO.AdventuresWorksSales_ElkaDW">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[KENNETHCALVO.AdventureWorksSales_Elka]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{48733416-F182-4EB0-B1F9-5FEA01170599}"
+      DTS:ObjectName="KENNETHCALVO.AdventureWorksSales_Elka">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Clear Fact Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{6C6FD947-15E8-45D2-9011-302D76B06725}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Clear Fact Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{41EA0037-3102-4D6F-8183-6615FD8E754E}"
+          SQLTask:SqlStatementSource="delete from dbo.Sales_Fact" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load Fact Table"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{6BACFB89-F822-467D-BCA2-7EB7707B7E32}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Fact Table"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Asignar Territorio del vendedor desconocido"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Territory_Dim]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Territory_Dim]) [refTable]
+where [refTable].[TerritoryID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="TerritoryKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TerritoryID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CountryRegionKey_FK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesYTD" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesLastYear" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CostYTD" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CostLastYear" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Groups" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]"
+                      name="SalesPersonTerritory"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">TerritoryID</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">TerritoryKey</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Asignar Territorio del vendedor Online"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Asignar Territorio del vendedor Online"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Territory_Dim]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Territory_Dim]) [refTable]
+where [refTable].[TerritoryID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="TerritoryKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TerritoryID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CountryRegionKey_FK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesYTD" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesLastYear" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CostYTD" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CostLastYear" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Groups" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]"
+                      name="SalesPersonTerritory"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">TerritoryID</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">TerritoryKey</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Asignar Tienda Online"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Asignar Tienda Online"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Store_Dim]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Store_Dim]) [refTable]
+where [refTable].[StoreID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="StoreKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="StoreID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Demographics" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Asignar Tienda Online.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">StoreID</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">StoreKey</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Asignar Vendedor Online"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Asignar Vendedor Online"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[SalesPerson_Dim]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[SalesPerson_Dim]) [refTable]
+where [refTable].[SalesPersonID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SalesPersonKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesPersonID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesQuota" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Bonus" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CommissionPct" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesYTD" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesLastYear" dataType="DT_CY" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Asignar Vendedor Online.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">SalesPersonID</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SalesPersonKey</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Cambio de llave para Store"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Cambio de llave para Store"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]}) ? -1 : #{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(StoreKey) ? -1 : StoreKey</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]}) &amp;&amp; [ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]}) &amp;&amp; [ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]}) ? -1 : [ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]}) &amp;&amp; ![ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]}) &amp;&amp; ![ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]}) ? -2 : #{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(SalesPersonTerritory) &amp;&amp; ISNULL(StoreKey) &amp;&amp; ISNULL(SalesPersonKey) ? -1 : ISNULL(SalesPersonTerritory) &amp;&amp; !ISNULL(StoreKey) &amp;&amp; !ISNULL(SalesPersonKey) ? -2 : SalesPersonTerritory</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]}) ? -1 : #{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(SalesPersonKey) ? -1 : SalesPersonKey</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Load Sales Fact Table"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Load Sales Fact Table"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT DISTINCT 
+    AdventuresWorksSales_ElkaDW.dbo.Product_Dim.ProductKey,
+    ObtenerSalesPersonTerritory.TerritoryKey AS SalesPersonTerritory,
+    ObtenerSalesTerritory.TerritoryKey AS SalesTerritory,
+    ObtenerBillTo.AddressKey AS BillTo,
+    ObtenerShipTo.AddressKey AS ShipTo,
+    ObtenerOrderDate.DateKey AS OrderDate,
+    ObtenerDueDate.DateKey AS DueDate,
+    ObtenerShipDate.DateKey AS ShipDate,
+    SPD.SalesPersonKey,
+    STO.StoreKey,
+    SOH.OnlineOrderFlag,
+    SOH.SalesOrderID,
+    SOD.UnitPrice,
+    SOD.OrderQty,
+    SOD.LineTotal
+    FROM Sales.SalesOrderHeader SOH
+        INNER JOIN Sales.SalesOrderDetail SOD
+            ON SOH.SalesOrderID = SOD.SalesOrderID
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Date_Dim ObtenerOrderDate
+            ON SOH.OrderDate = ObtenerOrderDate.TheDate
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Date_Dim ObtenerDueDate
+            ON SOH.DueDate = ObtenerDueDate.TheDate
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Date_Dim ObtenerShipDate
+            ON SOH.ShipDate = ObtenerShipDate.TheDate
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Product_Dim
+            ON SOD.ProductID = AdventuresWorksSales_ElkaDW.dbo.Product_Dim.ProductID
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Territory_Dim ObtenerSalesTerritory
+            ON SOH.TerritoryID = ObtenerSalesTerritory.TerritoryID
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Address_Dim ObtenerBillTo
+            ON SOH.BillToAddressID = ObtenerBillTo.AddressID
+        INNER JOIN AdventuresWorksSales_ElkaDW.dbo.Address_Dim ObtenerShipTo
+            ON SOH.ShipToAddressID = ObtenerShipTo.AddressID
+        LEFT JOIN Sales.SalesPerson SP
+            ON SOH.SalesPersonId = SP.BusinessEntityID
+        LEFT JOIN Sales.SalesTerritory ST1
+            ON SP.TerritoryID = ST1.TerritoryID
+        LEFT JOIN AdventuresWorksSales_ElkaDW.dbo.Territory_Dim ObtenerSalesPersonTerritory
+            ON ST1.TerritoryID = ObtenerSalesPersonTerritory.TerritoryID
+        INNER JOIN Sales.Customer Cus
+            ON SOH.CustomerID = Cus.CustomerID
+		LEFT JOIN AdventuresWorksSales_ElkaDW.dbo.Store_Dim STO
+			ON Cus.StoreID = STO.StoreID
+		LEFT JOIN AdventuresWorksSales_ElkaDW.dbo.SalesPerson_Dim SPD
+			ON SP.BusinessEntityID = SPD.SalesPersonID
+    WHERE (SOH.OrderDate IS NOT NULL)</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Load Sales Fact Table.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventureWorksSales_Elka]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventureWorksSales_Elka]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      name="OrderDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[DueDate]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[DueDate]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[DueDate]"
+                      name="DueDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipDate]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ShipDate]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipDate]"
+                      name="ShipDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ProductKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ProductKey]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ProductKey]"
+                      name="ProductKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesTerritory]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesTerritory]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesTerritory]"
+                      name="SalesTerritory"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesPersonTerritory]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]"
+                      name="SalesPersonTerritory"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[BillTo]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[BillTo]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[BillTo]"
+                      name="BillTo"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipTo]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ShipTo]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipTo]"
+                      name="ShipTo"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OnlineOrderFlag]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OnlineOrderFlag]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OnlineOrderFlag]"
+                      name="OnlineOrderFlag"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesOrderID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesOrderID]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesOrderID]"
+                      name="SalesOrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderQty]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OrderQty]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderQty]"
+                      name="OrderQty"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[LineTotal]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[LineTotal]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[LineTotal]"
+                      name="LineTotal"
+                      precision="38"
+                      scale="6"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesPersonKey]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]"
+                      name="SalesPersonKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[StoreKey]"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]"
+                      name="StoreKey"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      dataType="i4"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[DueDate]"
+                      dataType="i4"
+                      name="DueDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ShipDate]"
+                      dataType="i4"
+                      name="ShipDate" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesTerritory]"
+                      dataType="i4"
+                      name="SalesTerritory" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesPersonTerritory]"
+                      dataType="i4"
+                      name="SalesPersonTerritory" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[BillTo]"
+                      dataType="i4"
+                      name="BillTo" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[ShipTo]"
+                      dataType="i4"
+                      name="ShipTo" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OnlineOrderFlag]"
+                      dataType="bool"
+                      name="OnlineOrderFlag" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesOrderID]"
+                      dataType="i4"
+                      name="SalesOrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[UnitPrice]"
+                      dataType="cy"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[OrderQty]"
+                      dataType="i2"
+                      name="OrderQty" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[LineTotal]"
+                      dataType="numeric"
+                      name="LineTotal"
+                      precision="38"
+                      scale="6" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[SalesPersonKey]"
+                      dataType="i4"
+                      name="SalesPersonKey" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].ExternalColumns[StoreKey]"
+                      dataType="i4"
+                      name="StoreKey" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[DueDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[DueDate]"
+                      name="DueDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ShipDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ShipDate]"
+                      name="ShipDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ProductKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ProductKey]"
+                      name="ProductKey" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesTerritory]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesTerritory]"
+                      name="SalesTerritory" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesPersonTerritory]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesPersonTerritory]"
+                      name="SalesPersonTerritory" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[BillTo]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[BillTo]"
+                      name="BillTo" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ShipTo]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ShipTo]"
+                      name="ShipTo" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesPersonKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesPersonKey]"
+                      name="SalesPersonKey" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[StoreKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[StoreKey]"
+                      name="StoreKey" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OnlineOrderFlag]"
+                      dataType="bool"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OnlineOrderFlag]"
+                      name="OnlineOrderFlag" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesOrderID]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[SalesOrderID]"
+                      name="SalesOrderID" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      dataType="cy"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[UnitPrice]"
+                      name="UnitPrice" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OrderQty]"
+                      dataType="i2"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[OrderQty]"
+                      name="OrderQty" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[LineTotal]"
+                      dataType="numeric"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[LineTotal]"
+                      name="LineTotal"
+                      precision="38"
+                      scale="6" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Sales Fact Table"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Sales Fact Table"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Sales_Fact]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fact Table\Sales Fact Table.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  connectionManagerRefId="Package.ConnectionManagers[KENNETHCALVO.AdventuresWorksSales_ElkaDW]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[OnlineOrderFlag]"
+                      cachedDataType="bool"
+                      cachedName="OnlineOrderFlag"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OnLineOrderFlag]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[LineTotal]"
+                      cachedDataType="numeric"
+                      cachedName="LineTotal"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[LineTotal]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ProductKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonTerritoryKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesTerritory"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesTerritoryKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[BillTo]"
+                      cachedDataType="i4"
+                      cachedName="BillTo"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[BillToKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[ShipTo]"
+                      cachedDataType="i4"
+                      cachedName="ShipTo"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ShipToKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[OrderDate]"
+                      cachedDataType="i4"
+                      cachedName="OrderDate"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderDateKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[DueDate]"
+                      cachedDataType="i4"
+                      cachedName="DueDate"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[DueDateKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[ShipDate]"
+                      cachedDataType="i4"
+                      cachedName="ShipDate"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ShipDateKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[OrderQty]"
+                      cachedDataType="i2"
+                      cachedName="OrderQty"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderQty]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[StoreKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesOrderID]"
+                      cachedDataType="i4"
+                      cachedName="SalesOrderID"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesOrderID]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ProductKey_FK]"
+                      dataType="i4"
+                      name="ProductKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonTerritoryKey_FK]"
+                      dataType="i4"
+                      name="SalesPersonTerritoryKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesTerritoryKey_FK]"
+                      dataType="i4"
+                      name="SalesTerritoryKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[BillToKey_FK]"
+                      dataType="i4"
+                      name="BillToKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ShipToKey_FK]"
+                      dataType="i4"
+                      name="ShipToKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderDateKey_FK]"
+                      dataType="i4"
+                      name="OrderDateKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[DueDateKey_FK]"
+                      dataType="i4"
+                      name="DueDateKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ShipDateKey_FK]"
+                      dataType="i4"
+                      name="ShipDateKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonKey_FK]"
+                      dataType="i4"
+                      name="SalesPersonKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[StoreKey_FK]"
+                      dataType="i4"
+                      name="StoreKey_FK" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesOrderID]"
+                      dataType="i4"
+                      name="SalesOrderID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[LineTotal]"
+                      dataType="i4"
+                      name="LineTotal" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[UnitPrice]"
+                      dataType="cy"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OnLineOrderFlag]"
+                      dataType="bool"
+                      name="OnLineOrderFlag" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderQty]"
+                      dataType="i4"
+                      name="OrderQty" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Sales Fact Table.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Sales Fact Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Sales Fact Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Separar los diferentes Casos"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Separar los diferentes Casos"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Vendedor Online]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Vendedor Online"
+                  synchronousInputId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]} == -1 &amp;&amp; #{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]} == -1 &amp;&amp; #{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]} == -1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">StoreKey == -1 &amp;&amp; SalesPersonKey == -1 &amp;&amp; SalesPersonTerritory == -1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Territorio Indefinido]"
+                  description="Output 2 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Territorio Indefinido"
+                  synchronousInputId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]} == -2</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">SalesPersonTerritory == -2</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">1</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Venta no Online]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Venta no Online"
+                  synchronousInputId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fact Table\Union All"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[OrderDate]"
+                      cachedDataType="i4"
+                      cachedName="OrderDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[DueDate]"
+                      cachedDataType="i4"
+                      cachedName="DueDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[DueDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[ShipDate]"
+                      cachedDataType="i4"
+                      cachedName="ShipDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[SalesTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[BillTo]"
+                      cachedDataType="i4"
+                      cachedName="BillTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[BillTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[ShipTo]"
+                      cachedDataType="i4"
+                      cachedName="ShipTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[OnlineOrderFlag]"
+                      cachedDataType="bool"
+                      cachedName="OnlineOrderFlag"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OnlineOrderFlag]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[SalesOrderID]"
+                      cachedDataType="i4"
+                      cachedName="SalesOrderID"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesOrderID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[OrderQty]"
+                      cachedDataType="i2"
+                      cachedName="OrderQty"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderQty]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[LineTotal]"
+                      cachedDataType="numeric"
+                      cachedName="LineTotal"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[LineTotal]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 1].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2]"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[OrderDate]"
+                      cachedDataType="i4"
+                      cachedName="OrderDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[DueDate]"
+                      cachedDataType="i4"
+                      cachedName="DueDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[DueDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[ShipDate]"
+                      cachedDataType="i4"
+                      cachedName="ShipDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[SalesTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[BillTo]"
+                      cachedDataType="i4"
+                      cachedName="BillTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[BillTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[ShipTo]"
+                      cachedDataType="i4"
+                      cachedName="ShipTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[OnlineOrderFlag]"
+                      cachedDataType="bool"
+                      cachedName="OnlineOrderFlag"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OnlineOrderFlag]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[SalesOrderID]"
+                      cachedDataType="i4"
+                      cachedName="SalesOrderID"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesOrderID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[OrderQty]"
+                      cachedDataType="i2"
+                      cachedName="OrderQty"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderQty]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[LineTotal]"
+                      cachedDataType="numeric"
+                      cachedName="LineTotal"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[LineTotal]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 2].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3]"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[OrderDate]"
+                      cachedDataType="i4"
+                      cachedName="OrderDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[DueDate]"
+                      cachedDataType="i4"
+                      cachedName="DueDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[DueDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[ShipDate]"
+                      cachedDataType="i4"
+                      cachedName="ShipDate"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipDate]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[ProductKey]"
+                      cachedDataType="i4"
+                      cachedName="ProductKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ProductKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[SalesTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[BillTo]"
+                      cachedDataType="i4"
+                      cachedName="BillTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[BillTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[ShipTo]"
+                      cachedDataType="i4"
+                      cachedName="ShipTo"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[ShipTo]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[OnlineOrderFlag]"
+                      cachedDataType="bool"
+                      cachedName="OnlineOrderFlag"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OnlineOrderFlag]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[SalesOrderID]"
+                      cachedDataType="i4"
+                      cachedName="SalesOrderID"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesOrderID]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[UnitPrice]"
+                      cachedDataType="cy"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[UnitPrice]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[OrderQty]"
+                      cachedDataType="i2"
+                      cachedName="OrderQty"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[OrderQty]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[LineTotal]"
+                      cachedDataType="numeric"
+                      cachedName="LineTotal"
+                      cachedPrecision="38"
+                      cachedScale="6"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[LineTotal]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[StoreKey]"
+                      cachedDataType="i4"
+                      cachedName="StoreKey"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[StoreKey]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fact Table\Union All.Inputs[Union All Input 3].Columns[SalesPersonTerritory]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonTerritory"
+                      lineageId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output].Columns[SalesPersonTerritory]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load Fact Table\Union All.Inputs[Union All Input 4]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 4">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[DueDate]"
+                      name="DueDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]"
+                      name="ShipDate" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ProductKey]"
+                      name="ProductKey" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesTerritory]"
+                      name="SalesTerritory" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonTerritory]"
+                      name="SalesPersonTerritory" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[BillTo]"
+                      name="BillTo" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipTo]"
+                      name="ShipTo" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]"
+                      dataType="bool"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OnlineOrderFlag]"
+                      name="OnlineOrderFlag" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]"
+                      name="SalesOrderID" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
+                      dataType="cy"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[UnitPrice]"
+                      name="UnitPrice" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]"
+                      dataType="i2"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]"
+                      name="OrderQty" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]"
+                      dataType="numeric"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[LineTotal]"
+                      name="LineTotal"
+                      precision="38"
+                      scale="6" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]"
+                      name="SalesPersonKey" />
+                    <outputColumn
+                      refId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]"
+                      dataType="i4"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]"
+                      name="StoreKey" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load Fact Table.Paths[Derived Column Output]"
+              endId="Package\Load Fact Table\Separar los diferentes Casos.Inputs[Conditional Split Input]"
+              name="Derived Column Output"
+              startId="Package\Load Fact Table\Cambio de llave para Store.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Lookup Match Output]"
+              endId="Package\Load Fact Table\Asignar Vendedor Online.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Fact Table\Asignar Tienda Online.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Lookup Match Output1]"
+              endId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Fact Table\Asignar Vendedor Online.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Lookup Match Output2]"
+              endId="Package\Load Fact Table\Union All.Inputs[Union All Input 1]"
+              name="Lookup Match Output"
+              startId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Lookup Match Output3]"
+              endId="Package\Load Fact Table\Union All.Inputs[Union All Input 2]"
+              name="Lookup Match Output"
+              startId="Package\Load Fact Table\Asignar Territorio del vendedor Online.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[OLE DB Source Output]"
+              endId="Package\Load Fact Table\Cambio de llave para Store.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Load Fact Table\Load Sales Fact Table.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Territorio Indefinido]"
+              endId="Package\Load Fact Table\Asignar Territorio del vendedor desconocido.Inputs[Lookup Input]"
+              name="Territorio Indefinido"
+              startId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Territorio Indefinido]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Union All Output 1]"
+              endId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input]"
+              name="Union All Output 1"
+              startId="Package\Load Fact Table\Union All.Outputs[Union All Output 1]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Vendedor Online]"
+              endId="Package\Load Fact Table\Asignar Tienda Online.Inputs[Lookup Input]"
+              name="Vendedor Online"
+              startId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Vendedor Online]" />
+            <path
+              refId="Package\Load Fact Table.Paths[Venta no Online]"
+              endId="Package\Load Fact Table\Union All.Inputs[Union All Input 3]"
+              name="Venta no Online"
+              startId="Package\Load Fact Table\Separar los diferentes Casos.Outputs[Venta no Online]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{8B2AB5C6-1984-446D-A35B-AC4974EF8F2E}"
+      DTS:From="Package\Clear Fact Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Load Fact Table" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Clear Fact Table"
+          TopLeft="345,50" />
+        <NodeLayout
+          Size="154,43"
+          Id="Package\Load Fact Table"
+          TopLeft="344,129" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="421.75,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Load Fact Table">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Load Fact Table\Sales Fact Table"
+          TopLeft="364,669" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Load Fact Table\Asignar Tienda Online"
+          TopLeft="120,270" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Load Fact Table\Union All"
+          TopLeft="379,571" />
+        <NodeLayout
+          Size="212,42"
+          Id="Package\Load Fact Table\Separar los diferentes Casos"
+          TopLeft="277,190" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Load Fact Table\Cambio de llave para Store"
+          TopLeft="276,109" />
+        <NodeLayout
+          Size="258,42"
+          Id="Package\Load Fact Table\Asignar Territorio del vendedor Online"
+          TopLeft="92,464" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Load Fact Table\Load Sales Fact Table"
+          TopLeft="285,23" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\Load Fact Table\Asignar Vendedor Online"
+          TopLeft="116,369" />
+        <NodeLayout
+          Size="286,42"
+          Id="Package\Load Fact Table\Asignar Territorio del vendedor desconocido"
+          TopLeft="502,274" />
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Venta no Online]"
+          TopLeft="383,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="56.5,339"
+              Start="0,0"
+              End="56.5,331.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,165.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,165.5"
+                    Point2="0,169.5"
+                    Point3="4,169.5" />
+                  <mssgle:LineSegment
+                    End="52.5,169.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="52.5,169.5"
+                    Point2="56.5,169.5"
+                    Point3="56.5,173.5" />
+                  <mssgle:LineSegment
+                    End="56.5,331.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8.01453125,174.5,72.5290625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Vendedor Online]"
+          TopLeft="332,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-121,38"
+              Start="0,0"
+              End="-121,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.98136645962733" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.98136645962733"
+                    Point2="0,12.9813664596273"
+                    Point3="-4,12.9813664596273" />
+                  <mssgle:LineSegment
+                    End="-117,12.9813664596273" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-117,12.9813664596273"
+                    Point2="-121,12.9813664596273"
+                    Point3="-121,16.9813664596273" />
+                  <mssgle:LineSegment
+                    End="-121,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-98.07453125,17.9813664596273,75.1490625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Union All Output 1]"
+          TopLeft="440.5,613">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56"
+              Start="0,0"
+              End="0,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Territorio Indefinido]"
+          TopLeft="434,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="211,42"
+              Start="0,0"
+              End="211,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.3478260869565" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.3478260869565"
+                    Point2="0,14.3478260869565"
+                    Point3="4,14.3478260869565" />
+                  <mssgle:LineSegment
+                    End="207,14.3478260869565" />
+                  <mssgle:CubicBezierSegment
+                    Point1="207,14.3478260869565"
+                    Point2="211,14.3478260869565"
+                    Point3="211,18.3478260869565" />
+                  <mssgle:LineSegment
+                    End="211,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="60.531875,19.3478260869565,89.93625,9.7978515625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[OLE DB Source Output]"
+          TopLeft="377.25,65">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Lookup Match Output3]"
+          TopLeft="221,506">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="190.25,65"
+              Start="0,0"
+              End="190.25,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.3989218328841" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.3989218328841"
+                    Point2="0,42.3989218328841"
+                    Point3="4,42.3989218328841" />
+                  <mssgle:LineSegment
+                    End="186.25,42.3989218328841" />
+                  <mssgle:CubicBezierSegment
+                    Point1="186.25,42.3989218328841"
+                    Point2="190.25,42.3989218328841"
+                    Point3="190.25,46.3989218328841" />
+                  <mssgle:LineSegment
+                    End="190.25,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="46.93361328125,47.3989218328841,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Lookup Match Output2]"
+          TopLeft="645,316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-177.25,255"
+              Start="0,0"
+              End="-177.25,247.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,162.33423180593" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,162.33423180593"
+                    Point2="0,166.33423180593"
+                    Point3="-4,166.33423180593" />
+                  <mssgle:LineSegment
+                    End="-173.25,166.33423180593" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-173.25,166.33423180593"
+                    Point2="-177.25,166.33423180593"
+                    Point3="-177.25,170.33423180593" />
+                  <mssgle:LineSegment
+                    End="-177.25,247.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-136.81638671875,171.33423180593,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Lookup Match Output1]"
+          TopLeft="217.25,411">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,16.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Lookup Match Output]"
+          TopLeft="212.25,312">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57"
+              Start="0,0"
+              End="0,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,18.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fact Table.Paths[Derived Column Output]"
+          TopLeft="381,151">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Sales Fact Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Asignar Tienda Online">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Store_Dim]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Asignar Territorio del vendedor Online">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Territory_Dim]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Load Sales Fact Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Asignar Vendedor Online">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[SalesPerson_Dim]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fact Table\Asignar Territorio del vendedor desconocido">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Territory_Dim]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/22/2017 10:51:13 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAPTOP-T3A8F6F5"
+  DTS:CreatorName="LAPTOP-T3A8F6F5\Johan Duran Cerdas"
+  DTS:DTSID="{5470DE30-87FC-4027-9248-52ED555AF28C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.60"
+  DTS:LocaleID="5130"
+  DTS:ObjectName="HierarchiesLoad"
+  DTS:PackageType="5"
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{6FC8415A-15FE-41F4-8C43-5DA6EAEDE2FF}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-T3A8F6F5.AdventuresWorksSales_ElkaDW]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{0262F73C-AB7A-45F6-857D-F0F8C47E04AC}"
+      DTS:ObjectName="LAPTOP-T3A8F6F5.AdventuresWorksSales_ElkaDW">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-T3A8F6F5\.AdventureWorksSales_Elka]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{0EC380C7-A343-42D3-9ACA-F002A55DAB60}"
+      DTS:ObjectName="LAPTOP-T3A8F6F5\.AdventureWorksSales_Elka">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

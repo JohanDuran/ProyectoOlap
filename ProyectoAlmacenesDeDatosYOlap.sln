@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ProcesosETL", "ProcesosETL\ProcesosETL.dtproj", "{99808987-9859-4FE2-8D50-A3866F322463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99808987-9859-4FE2-8D50-A3866F322463}.Development|Default.ActiveCfg = Development
+		{99808987-9859-4FE2-8D50-A3866F322463}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {506C0A8B-265F-48F2-8896-A2E4AD6A5D50}
+	EndGlobalSection
+EndGlobal
