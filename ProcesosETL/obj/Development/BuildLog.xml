@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ProcesosETL</Name>
-    <LastWriteTime>2017-10-25T06:27:59.4694231Z</LastWriteTime>
+    <LastWriteTime>2017-10-25T06:52:48.8548828Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>DimensionsLoad.dtsx</Name>
-      <LastWriteTime>2017-10-25T06:16:32.4143246Z</LastWriteTime>
+      <LastWriteTime>2017-10-25T21:00:49.4505302Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FactLoad.dtsx</Name>
-      <LastWriteTime>2017-10-25T06:45:15.3265229Z</LastWriteTime>
+      <LastWriteTime>2017-10-27T00:48:35.3769755Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{6E5D5F50-2739-4196-BB2F-E0A6A186E287}">
+  DTS:VersionBuild="29"
+  DTS:VersionGUID="{8C1BF3DE-0788-4D7B-9B94-C3218957894C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2730,7 +2730,7 @@ where [refTable].[SalesPersonID] = ?</property>
         <NodeLayout
           Size="206,42"
           Id="Package\Load Fact Table\Cambio de llave para Store"
-          TopLeft="276,109" />
+          TopLeft="275,114" />
         <NodeLayout
           Size="258,42"
           Id="Package\Load Fact Table\Asignar Territorio del vendedor Online"
@@ -2879,18 +2879,18 @@ where [refTable].[SalesPersonID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Fact Table.Paths[OLE DB Source Output]"
-          TopLeft="377.25,65">
+          TopLeft="376.75,65">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44"
+              EndConnector="0,49"
               Start="0,0"
-              End="0,36.5">
+              End="0,41.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,41.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3021,18 +3021,18 @@ where [refTable].[SalesPersonID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Fact Table.Paths[Derived Column Output]"
-          TopLeft="381,151">
+          TopLeft="380.5,156">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,39"
+              EndConnector="0,34"
               Start="0,0"
-              End="0,31.5">
+              End="0,26.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5" />
+                    End="0,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
