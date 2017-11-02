@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>2mvit5WhTkYcT3dK++1nyLzLeMU=01/11/2017 18:31:4801/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>NGBUK/9enlB2nbyjWpU/a8tijNg=01/11/2017 19:59:2601/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Territory Dim</String>
         </ID>
@@ -47,14 +47,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Y04Y+Lwg8lmPrbU4AP/oPbu0CFo=01/11/2017 18:52:1101/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>16XCV8HLu/1sRJ9uyJxuLo43IEs=01/11/2017 21:20:3801/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Store Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>owFcWVbzu3ufFHIaSMdYTliJOjY=01/11/2017 18:53:2101/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>0PcdkSU1eN8lh8kXzl50DtYj1I8=01/11/2017 21:20:2501/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Sales Person Dim</String>
         </ID>
@@ -68,14 +68,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MktByY2lSyWITltbBvgiEwpGXZ8=01/11/2017 19:14:0601/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>G8/jGg4Yow7gQkrvCFYKFUPe0Lk=01/11/2017 19:53:2001/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Address Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/BepEW40REl/EK7OF/FZgqZv83A=01/11/2017 21:24:4101/11/2017 20:39:06</TimeStamp>
+        <ID>
+          <String>Sales Order Header</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ez0AjfThUFKzImnQWZLKjDd49+k=01/11/2017 21:27:3101/11/2017 21:24:25</TimeStamp>
+        <ID>
+          <String>Online Sales Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Wh6dhX82xdK32u2/nAASiGtecTA=01/11/2017 19:14:0601/11/2017 16:47:43VPVP5KnLViCMGmihZPBtLzNUF9U=01/11/2017 16:47:4401/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>VvAXBZTMj/LQT8ORJ3zFOeZxXEw=01/11/2017 21:29:2901/11/2017 16:47:43v7KUzS1anP0VprDvZM1wDUXlA50=01/11/2017 20:13:2801/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Adventures Works Sales Elka DW</String>
         </ID>
@@ -83,7 +97,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>7gGTDDmOsQTPQJuEGezlK/xdmi8=01/11/2017 16:32:1301/11/2017 16:32:12</TimeStamp>
+      <TimeStamp>JtnyEW1oTAUARYDnqLuxsGZuI2w=01/11/2017 20:14:3701/11/2017 16:32:12</TimeStamp>
       <ID>
         <String>CuboOLAP Proyecto</String>
       </ID>
@@ -92,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-11-02T01:15:52.67Z</LastDeployed>
+  <LastDeployed>2017-11-02T03:29:39.673333Z</LastDeployed>
 </DeploymentSnapshot>

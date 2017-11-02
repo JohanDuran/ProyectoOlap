@@ -187,9 +187,9 @@
       <NameColumn dwd:design-time-name="298cbac7-c353-40c2-bf25-3d9aea4a6e0b">
         <DataType>WChar</DataType>
         <DataSize>60</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="bba72dde-11cc-4a20-aebb-c6df3ad5039c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="30011e9a-7584-43e2-b4b5-db4fd76cd5c0">
           <TableID>dbo_Address_Dim</TableID>
-          <ColumnID>AddressKey</ColumnID>
+          <ColumnID>AddressLine1</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>

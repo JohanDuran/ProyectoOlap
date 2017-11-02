@@ -30,6 +30,12 @@
       <Dimension>
         <ID>Address Dim</ID>
       </Dimension>
+      <Dimension>
+        <ID>Sales Order Header</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Online Sales Dim</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
