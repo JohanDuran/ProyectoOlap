@@ -7,9 +7,9 @@
         <Partition dwd:design-time-name="e5053af0-16a5-48c2-aec0-8f176107b528">
           <ID>Sales Fact</ID>
           <Name>Sales Fact</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="21531e83-722d-41db-85e2-b94c530e1946">
             <DataSourceViewID>Adventures Works Sales Elka DW</DataSourceViewID>

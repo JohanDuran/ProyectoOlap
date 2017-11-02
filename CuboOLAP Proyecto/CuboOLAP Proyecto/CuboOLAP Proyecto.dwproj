@@ -44,8 +44,12 @@
       <FullPath>Address Dim.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>OrderHeader.dim</Name>
-      <FullPath>OrderHeader.dim</FullPath>
+      <Name>Sales Order Header Deg Dim.dim</Name>
+      <FullPath>Sales Order Header Deg Dim.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Online Sales Deg Dim.dim</Name>
+      <FullPath>Online Sales Deg Dim.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
