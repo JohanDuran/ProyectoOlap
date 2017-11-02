@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="DimensionsLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="81"
-  DTS:VersionGUID="{81AEC8AC-8B2D-4996-BC68-41AAC6BDBF59}">
+  DTS:VersionBuild="84"
+  DTS:VersionGUID="{348C0105-3106-4230-8981-8FFDEFB38DCE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\kenca\source\repos\MDPracticasOLAP\Error Product_ProductModel.txt">
+          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Errores_Product_ProductModel.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{F8653A62-05DB-4FAF-8B08-00C29558DB5F}"
+              DTS:DTSID="{B1E4CB07-1BB8-4922-932D-0F367C6F4B86}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{CCC76DC6-F7B9-403E-A1DD-2B5F447CE7E2}"
+              DTS:DTSID="{711F0358-CDF8-4656-9A22-F833A1CA2BDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -55,7 +55,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNumber"
-              DTS:DTSID="{8B207C23-4A7B-4075-933A-52F3C11B40C3}"
+              DTS:DTSID="{AAAC1204-A209-4D1D-9BCE-F693B123C639}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="MakeFlag_value"
-              DTS:DTSID="{BA4BF5EF-B201-434D-847E-52820D1D9838}"
+              DTS:DTSID="{6D097E39-ECB4-4CCB-BCDF-CE39F4250710}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -71,7 +71,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="FinishedGoodsFlag_value"
-              DTS:DTSID="{48195F31-BABB-442F-8748-1C51FEA65FF1}"
+              DTS:DTSID="{DB300F5F-EDEA-4AF8-A523-2A4A33C53945}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Color"
-              DTS:DTSID="{5F1E1644-235E-4A05-9387-24F73B535ABF}"
+              DTS:DTSID="{B7911B91-C90E-42DF-B222-E1CD571DDA5A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -88,7 +88,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="SafetyStockLevel"
-              DTS:DTSID="{26C7C853-2071-4544-90B4-150575DF3274}"
+              DTS:DTSID="{90424403-0BBF-4FD3-9C96-CE233CD175CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +96,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ReorderPoint"
-              DTS:DTSID="{DBA5BBAB-C1F8-4B0D-897B-F9F22BA6A142}"
+              DTS:DTSID="{5AE75077-9D49-4AE4-9D53-FC9CCEF6005B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardCost"
-              DTS:DTSID="{B9B8E6E1-D109-445F-BCF5-F332F9250601}"
+              DTS:DTSID="{4A619CEA-A61D-4850-AFED-5C70B4F9F4FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="ListPrice"
-              DTS:DTSID="{5064C6A4-37B8-41DE-AB4F-3B5744DAA957}"
+              DTS:DTSID="{1C6351C5-05A5-400B-9B4D-18A7DB639E18}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +121,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Size"
-              DTS:DTSID="{E3E21C95-E5E1-41A9-86FA-E67C666D39C1}"
+              DTS:DTSID="{5283DF13-A89D-4BF5-A40D-28E8618FBAB0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SizeUnitMeasureCode"
-              DTS:DTSID="{6BD6F9D4-32F1-4E47-AD90-59B87554AF34}"
+              DTS:DTSID="{1D476CF4-3B0C-4836-B49F-3C843C81C909}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +139,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeightUnitMeasureCode"
-              DTS:DTSID="{C1AAB0C4-87FC-4B98-9B56-D07B4DDE1268}"
+              DTS:DTSID="{F317EF4A-C2EF-4D90-98A6-A683B4B55F63}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -149,7 +149,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{1A79A9FA-9293-4C45-ABBA-93190B69FF0F}"
+              DTS:DTSID="{394505B8-8CDC-4678-AFDE-0AB2EDF19067}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +157,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DaysToManufacture"
-              DTS:DTSID="{37C695A2-F061-4213-B8E4-B2955FE48C34}"
+              DTS:DTSID="{A6CFFBB6-7CDC-4579-9C6C-49C406D12FE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +166,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductLine_value"
-              DTS:DTSID="{12F593EE-08E3-4E5A-987D-1E1A827DD5A8}"
+              DTS:DTSID="{80204F2E-C67D-451E-A3F3-5F0FD63681C1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +175,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Class_value"
-              DTS:DTSID="{5FCA2D1A-5C6B-433A-A35E-A69BF4734CF6}"
+              DTS:DTSID="{EB675CCF-5B0A-4515-837B-A5FE68CCC493}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -184,7 +184,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Style_value"
-              DTS:DTSID="{2CF27F29-6F25-4C7F-AF80-430D90F44D4F}"
+              DTS:DTSID="{F681D714-24D4-4976-B518-397E4CA1B109}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -192,7 +192,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductSubcategoryID"
-              DTS:DTSID="{0BC74946-1FA6-4CF1-B956-1BCC4C7E91C0}"
+              DTS:DTSID="{79CFA15C-6163-4FFF-B8F6-DF570F361439}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellStartDate"
-              DTS:DTSID="{06FC8994-9BA3-40F2-8BEF-5B7360B39226}"
+              DTS:DTSID="{F09D077B-0AED-46B1-AA1F-04CDAF1810B9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -208,7 +208,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellEndDate"
-              DTS:DTSID="{6A8D7BF0-DB2A-4826-9E8A-5E98C0DA8924}"
+              DTS:DTSID="{F3767342-7B06-41DE-8664-C9940183D3C9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -216,7 +216,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DiscontinuedDate"
-              DTS:DTSID="{068B624A-F2DE-4B15-AD27-C89852C7B42C}"
+              DTS:DTSID="{112B5FD3-58FE-4D42-8E59-B3C01085A744}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -224,7 +224,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelID"
-              DTS:DTSID="{EDC81A37-94A4-4CF9-93DA-84C511F39E2B}"
+              DTS:DTSID="{24794A22-4798-4D5A-B226-0215DDEE91BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -232,7 +232,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SubcategoryKey"
-              DTS:DTSID="{945D294B-A881-4BA0-B949-978B50288F04}"
+              DTS:DTSID="{11C17B4E-EDAA-4AF7-A925-CAD844F9A51C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -240,7 +240,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{1CC3424D-FFBF-4EAB-A901-F6D09779DFDC}"
+              DTS:DTSID="{52041DF5-600E-44DE-90C4-DD78D05E60FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -248,7 +248,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{D1AA7CAB-60DA-4825-9D1A-2D9F6ADCB0C5}"
+              DTS:DTSID="{6C595ACF-6EE1-40E9-A7DB-70137EDC6B24}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -261,7 +261,7 @@
       DTS:ObjectName="LAPTOP-T3A8F6F5.AdventuresWorksSales_ElkaDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -271,7 +271,7 @@
       DTS:ObjectName="LAPTOP-T3A8F6F5\.AdventureWorksSales_Elka">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1820,52 +1820,53 @@ FROM Sales.SalesOrderHeader soh</property>
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[TheDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="TheDate"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[TheDate]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[TheDate]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[TheDate]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[DayName]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="DayName"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[DayName]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayName]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayName]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[DayNumber]"
                       cachedDataType="i4"
                       cachedName="DayNumber"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[DayNumber]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayNumber]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayNumber]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[MonthName]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="MonthName"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[MonthName]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthName]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthName]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[MonthNumber]"
                       cachedDataType="i4"
                       cachedName="MonthNumber"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[MonthNumber]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthNumber]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthNumber]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[QuarterName]"
                       cachedDataType="i4"
                       cachedName="QuarterName"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[QuaterName]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[QuarterName]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[QuarterName]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[Year]"
                       cachedDataType="i4"
                       cachedName="Year"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Year]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Year]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[DayOfWeek]"
                       cachedDataType="i4"
                       cachedName="DayOfWeek"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[DayOfWeek]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfWeek]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfWeek]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[Weekend]"
                       cachedCodepage="1252"
@@ -1873,13 +1874,13 @@ FROM Sales.SalesOrderHeader soh</property>
                       cachedLength="1"
                       cachedName="Weekend"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[Weekend]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Weekend]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Weekend]" />
                     <inputColumn
                       refId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].Columns[DayOfYear]"
                       cachedDataType="i4"
                       cachedName="DayOfYear"
                       externalMetadataColumnId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input].ExternalColumns[DayOfYear]"
-                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfYear]" />
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfYear]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -5048,6 +5049,343 @@ where [refTable].[ProductModelID] = ?</property>
                       dataType="i4"
                       lineageId="Package\Nivel 1\SalesPerson Data Source.Outputs[OLE DB Source Error Output].Columns[BusinessEntityID]"
                       name="BusinessEntityID" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Nivel 1\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Nivel 1\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[TheDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="TheDate"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[TheDate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[DayName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="DayName"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[DayNumber]"
+                      cachedDataType="i4"
+                      cachedName="DayNumber"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayNumber]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[MonthName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="MonthName"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[MonthNumber]"
+                      cachedDataType="i4"
+                      cachedName="MonthNumber"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthNumber]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[QuarterName]"
+                      cachedDataType="i4"
+                      cachedName="QuarterName"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[QuarterName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[DayOfWeek]"
+                      cachedDataType="i4"
+                      cachedName="DayOfWeek"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfWeek]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[DayOfYear]"
+                      cachedDataType="i4"
+                      cachedName="DayOfYear"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfYear]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[Year]"
+                      cachedDataType="i4"
+                      cachedName="Year"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Year]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Nivel 1\Sort.Inputs[Sort Input].Columns[Weekend]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="Weekend"
+                      lineageId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Weekend]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Nivel 1\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[TheDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[TheDate]"
+                      name="TheDate"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[TheDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayName]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayName]"
+                      name="DayName">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayName]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayNumber]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayNumber]"
+                      name="DayNumber">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayNumber]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthName]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthName]"
+                      name="MonthName">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthName]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthNumber]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[MonthNumber]"
+                      name="MonthNumber">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[MonthNumber]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[QuarterName]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[QuarterName]"
+                      name="QuarterName">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[QuarterName]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfWeek]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfWeek]"
+                      name="DayOfWeek">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfWeek]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfYear]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[DayOfYear]"
+                      name="DayOfYear">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[DayOfYear]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Year]"
+                      dataType="i4"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Year]"
+                      name="Year">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Year]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Weekend]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      lineageId="Package\Nivel 1\Sort.Outputs[Sort Output].Columns[Weekend]"
+                      name="Weekend">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output].Columns[Weekend]}</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -8252,50 +8590,50 @@ where [refTable].[ProductModelID] = ?</property>
               name="Merge Join Output"
               startId="Package\Nivel 1\Merge Join StateProvinceID.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output8]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output7]"
               endId="Package\Nivel 1\Sort 2 by StateProvinceID.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\StateProvince Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output7]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output6]"
               endId="Package\Nivel 1\Sort by SubCatID.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\Subcategory Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output6]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output5]"
               endId="Package\Nivel 1\Destino SalesPerson Dim.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\SalesPerson Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output5]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output8]"
+              endId="Package\Nivel 1\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Nivel 1.Paths[OLE DB Source Output4]"
               endId="Package\Nivel 1\Sort by CountryRegion Code.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\Territory Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output4]"
-              endId="Package\Nivel 1\Sort by StateProvinceID.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Nivel 1\Address Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output3]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output2]"
               endId="Package\Nivel 1\Sort by ContryRegionID.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\CountryRegion Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output2]"
+              refId="Package\Nivel 1.Paths[OLE DB Source Output1]"
               endId="Package\Nivel 1\Destino Store Dim.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\Store Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Nivel 1.Paths[OLE DB Source Output1]"
-              endId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\Nivel 1\Date Data Source.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Nivel 1.Paths[OLE DB Source Output]"
               endId="Package\Nivel 1\Split null class with and without price.Inputs[Conditional Split Input]"
               name="OLE DB Source Output"
               startId="Package\Nivel 1\Product Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Nivel 1.Paths[OLE DB Source Output3]"
+              endId="Package\Nivel 1\Sort by StateProvinceID.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Nivel 1\Address Data Source.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Nivel 1.Paths[Prediccion de clase]"
               endId="Package\Nivel 1\Derived Clasify according to price.Inputs[Derived Column Input]"
@@ -8331,6 +8669,11 @@ where [refTable].[ProductModelID] = ?</property>
               endId="Package\Nivel 1\Merge Join StateProvinceID.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Nivel 1\Sort by StateProvinceID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Nivel 1.Paths[Sort Output6]"
+              endId="Package\Nivel 1\Destino Date Dim.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\Nivel 1\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\Nivel 1.Paths[Union All Output 1]"
               endId="Package\Nivel 1\Sort by ProductSubcatID.Inputs[Sort Input]"
@@ -11246,13 +11589,13 @@ where [refTable].[ProductModelID] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="258,42"
-          Id="Package\Limpieza de dimensiones y herarquias"
-          TopLeft="671,57" />
-        <NodeLayout
           Size="219,42"
           Id="Package\Insertar filas de ventas online"
           TopLeft="696,363" />
+        <NodeLayout
+          Size="258,42"
+          Id="Package\Limpieza de dimensiones y herarquias"
+          TopLeft="671,57" />
         <NodeLayout
           Size="111,42"
           Id="Package\Nivel 1"
@@ -11362,22 +11705,6 @@ where [refTable].[ProductModelID] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="195,42"
-          Id="Package\Nivel 1\Sort by ProductSubcatID"
-          TopLeft="227.5,346.5" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Nivel 1\Sort by SubCatID"
-          TopLeft="465.5,347.5" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Nivel 1\Destino Address Dim"
-          TopLeft="1325,299" />
-        <NodeLayout
-          Size="218,42"
-          Id="Package\Nivel 1\Union All of new acquire data"
-          TopLeft="219,271" />
-        <NodeLayout
           Size="164,42"
           Id="Package\Nivel 1\Store Data Source"
           TopLeft="1157.25,431" />
@@ -11386,45 +11713,45 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Nivel 1\Destino Store Dim"
           TopLeft="1151.25,542" />
         <NodeLayout
+          Size="212,42"
+          Id="Package\Nivel 1\Sort by CountryRegion Code"
+          TopLeft="686.75,142.25" />
+        <NodeLayout
+          Size="264,42"
+          Id="Package\Nivel 1\Merge Join ProductSubCatID_SubCatID"
+          TopLeft="305,425" />
+        <NodeLayout
           Size="236,42"
           Id="Package\Nivel 1\Derived Clasify according to price"
           TopLeft="46,198.75" />
         <NodeLayout
-          Size="302,42"
-          Id="Package\Nivel 1\Derived NULL control and Columns aggregation"
-          TopLeft="41,506" />
+          Size="218,42"
+          Id="Package\Nivel 1\Union All of new acquire data"
+          TopLeft="219,271" />
         <NodeLayout
           Size="209,42"
           Id="Package\Nivel 1\Merge Join StateProvinceID"
           TopLeft="1316.5,217.5" />
         <NodeLayout
-          Size="200,42"
-          Id="Package\Nivel 1\Sort 2 by StateProvinceID"
-          TopLeft="1426,138.75" />
+          Size="191,42"
+          Id="Package\Nivel 1\Sort by StateProvinceID"
+          TopLeft="1198.5,138" />
         <NodeLayout
           Size="175,42"
           Id="Package\Nivel 1\Destino Product Dim"
           TopLeft="102.25,596.25" />
         <NodeLayout
-          Size="162,42"
-          Id="Package\Nivel 1\Date Data Source"
-          TopLeft="1356.5,430.75" />
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Nivel 1\Product Data Source"
-          TopLeft="240,50" />
-        <NodeLayout
-          Size="196,42"
-          Id="Package\Nivel 1\SalesPerson Data Source"
-          TopLeft="848.75,428.5" />
-        <NodeLayout
-          Size="212,42"
-          Id="Package\Nivel 1\Sort by CountryRegion Code"
-          TopLeft="686.75,142.25" />
-        <NodeLayout
           Size="190,42"
           Id="Package\Nivel 1\Sort by ContryRegionID"
           TopLeft="933.25,140.5" />
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Nivel 1\Subcategory Data Source"
+          TopLeft="443,52" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Nivel 1\Date Data Source"
+          TopLeft="1356.5,430.75" />
         <NodeLayout
           Size="196,42"
           Id="Package\Nivel 1\Destino SalesPerson Dim"
@@ -11434,6 +11761,22 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Nivel 1\Flat File Errors in lookup"
           TopLeft="468.75,603.75" />
         <NodeLayout
+          Size="204,42"
+          Id="Package\Nivel 1\StateProvince Data Source"
+          TopLeft="1420,55" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Nivel 1\Sort 2 by StateProvinceID"
+          TopLeft="1426,138.75" />
+        <NodeLayout
+          Size="312,42"
+          Id="Package\Nivel 1\Merge Join CountryRegionCode_CountryRegionID"
+          TopLeft="754.25,223.75" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\Nivel 1\Sort by ProductSubcatID"
+          TopLeft="227.5,346.5" />
+        <NodeLayout
           Size="180,42"
           Id="Package\Nivel 1\Territory Data Source"
           TopLeft="706,56.25" />
@@ -11442,29 +11785,17 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Nivel 1\Split null class with and without price"
           TopLeft="195,115" />
         <NodeLayout
-          Size="204,42"
-          Id="Package\Nivel 1\StateProvince Data Source"
-          TopLeft="1420,55" />
-        <NodeLayout
-          Size="312,42"
-          Id="Package\Nivel 1\Merge Join CountryRegionCode_CountryRegionID"
-          TopLeft="754.25,223.75" />
-        <NodeLayout
-          Size="191,42"
-          Id="Package\Nivel 1\Sort by StateProvinceID"
-          TopLeft="1198.5,138" />
+          Size="209,42"
+          Id="Package\Nivel 1\CountryRegion Data Source"
+          TopLeft="920.25,56.5" />
         <NodeLayout
           Size="162,42"
           Id="Package\Nivel 1\Destino Date Dim"
           TopLeft="1354.5,544.75" />
         <NodeLayout
-          Size="264,42"
-          Id="Package\Nivel 1\Merge Join ProductSubCatID_SubCatID"
-          TopLeft="305,425" />
-        <NodeLayout
-          Size="198,42"
-          Id="Package\Nivel 1\Subcategory Data Source"
-          TopLeft="443,52" />
+          Size="302,42"
+          Id="Package\Nivel 1\Derived NULL control and Columns aggregation"
+          TopLeft="41,506" />
         <NodeLayout
           Size="193,42"
           Id="Package\Nivel 1\Lookup of ProductModel"
@@ -11474,9 +11805,21 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Nivel 1\Destino Territory Dim"
           TopLeft="827.5,320.5" />
         <NodeLayout
-          Size="209,42"
-          Id="Package\Nivel 1\CountryRegion Data Source"
-          TopLeft="920.25,56.5" />
+          Size="161,42"
+          Id="Package\Nivel 1\Sort by SubCatID"
+          TopLeft="465.5,347.5" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Nivel 1\Product Data Source"
+          TopLeft="240,50" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Nivel 1\SalesPerson Data Source"
+          TopLeft="848.75,428.5" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Nivel 1\Destino Address Dim"
+          TopLeft="1325,299" />
         <NodeLayout
           Size="177,42"
           Id="Package\Nivel 1\Address Data Source"
@@ -11744,7 +12087,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output8]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output7]"
           TopLeft="1524,97">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11766,7 +12109,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output7]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output6]"
           TopLeft="544,94">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11788,7 +12131,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output6]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output5]"
           TopLeft="947.25,470.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11810,7 +12153,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output5]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output4]"
           TopLeft="794.375,98.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11832,7 +12175,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output4]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output3]"
           TopLeft="1291.25,97">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11854,7 +12197,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output3]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output2]"
           TopLeft="1026.5,98.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11876,7 +12219,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output2]"
+          Id="Package\Nivel 1.Paths[OLE DB Source Output1]"
           TopLeft="1236.25,473">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -11889,28 +12232,6 @@ where [refTable].[ProductModelID] = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,61.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Nivel 1.Paths[OLE DB Source Output1]"
-          TopLeft="1436.5,472.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,72"
-              Start="0,0"
-              End="0,64.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,64.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12147,22 +12468,81 @@ where [refTable].[ProductModelID] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Nivel 1\Sort"
+          TopLeft="1586,492" />
+        <EdgeLayout
+          Id="Package\Nivel 1.Paths[OLE DB Source Output8]"
+          TopLeft="1518.5,451.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="67.5,61.25"
+              Start="0,0"
+              End="60,61.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="29.75,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.75,0"
+                    Point2="33.75,0"
+                    Point3="33.75,4" />
+                  <mssgle:LineSegment
+                    End="33.75,57.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33.75,57.25"
+                    Point2="33.75,61.25"
+                    Point3="37.75,61.25" />
+                  <mssgle:LineSegment
+                    End="60,61.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Nivel 1.Paths[Sort Output6]"
+          TopLeft="1586,518.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-69.5,47.0833333333334"
+              Start="0,0"
+              End="-62,47.0833333333334">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-25.3302752293578,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-25.3302752293578,0"
+                    Point2="-29.3302752293578,0"
+                    Point3="-29.3302752293578,4" />
+                  <mssgle:LineSegment
+                    End="-29.3302752293578,43.0833333333334" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-29.3302752293578,43.0833333333334"
+                    Point2="-29.3302752293578,47.0833333333334"
+                    Point3="-33.3302752293578,47.0833333333334" />
+                  <mssgle:LineSegment
+                    End="-62,47.0833333333334" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\Destino Address Dim">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Nivel 1\Destino Store Dim">
     <Properties>
@@ -12190,7 +12570,7 @@ where [refTable].[ProductModelID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\Product Data Source">
+    design-time-name="Package\Nivel 1\Subcategory Data Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12199,24 +12579,19 @@ where [refTable].[ProductModelID] = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nivel 1\Date Data Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Nivel 1\Destino SalesPerson Dim">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\Territory Data Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12242,7 +12617,7 @@ where [refTable].[ProductModelID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\Destino Date Dim">
+    design-time-name="Package\Nivel 1\Territory Data Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12255,7 +12630,20 @@ where [refTable].[ProductModelID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\Subcategory Data Source">
+    design-time-name="Package\Nivel 1\CountryRegion Data Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nivel 1\Destino Date Dim">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12304,7 +12692,20 @@ where [refTable].[ProductModelID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Nivel 1\CountryRegion Data Source">
+    design-time-name="Package\Nivel 1\Product Data Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nivel 1\Destino Address Dim">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12320,7 +12721,7 @@ where [refTable].[ProductModelID] = ?</property>
     design-time-name="Package\Nivel 2">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="203,42"
           Id="Package\Nivel 2\Destino ProductModel Dim"
@@ -12408,7 +12809,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12442,7 +12845,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12464,7 +12869,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12486,7 +12893,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12508,7 +12917,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12530,7 +12941,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12552,7 +12965,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12574,7 +12989,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12596,7 +13013,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12630,7 +13049,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12664,7 +13085,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12726,7 +13149,7 @@ where [refTable].[ProductModelID] = ?</property>
     design-time-name="Package\Nivel 3">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="209,42"
           Id="Package\Nivel 3\Destino CountryRegion Hier"
@@ -12762,7 +13185,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12784,7 +13209,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
