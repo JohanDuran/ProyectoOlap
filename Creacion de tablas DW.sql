@@ -30,13 +30,6 @@ if exists (select * from sysobjects where id = object_id(N'[dbo].[Store_Dim]') a
   drop table [dbo].[Store_Dim]
 GO
 
-if exists (select * from sysobjects where id = object_id(N'[dbo].[Subcategory_Hier]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
-  drop table [dbo].[Subcategory_Hier]
-GO
-
-if exists (select * from sysobjects where id = object_id(N'[dbo].[Category_Hier]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
-  drop table [dbo].[Category_Hier]
-GO
 
 if exists (select * from sysobjects where id = object_id(N'[dbo].[StateProvince_Hier]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
   drop table [dbo].[StateProvince_Hier]
@@ -46,10 +39,6 @@ if exists (select * from sysobjects where id = object_id(N'[dbo].[CountryRegion_
   drop table [dbo].[CountryRegion_Hier]
 GO
 
-
-if exists (select * from sysobjects where id = object_id(N'[dbo].[ProductModel_Hier]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
-  drop table [dbo].[ProductModel_Hier]
-GO
 
 -- Creación de dimensión de Tiempo
 
@@ -73,8 +62,13 @@ CREATE TABLE [dbo].[Date_Dim](
 CREATE TABLE [dbo].[Product_Dim](
 	ProductKey int IDENTITY(1,1) NOT NULL,
 	ProductID int NOT NULL,
-	SubcategoryKey_FK int NULL,
-	ProductModelKey_FK int NULL,
+	ProductCategoryID int NOT NULL,
+	ProductCategoryName nvarchar(50) NOT NULL,
+	ProductSubCategoryID int NOT NULL,
+	ProductSubcategoryName nvarchar(50) NOT NULL,
+	ProductModelID int NOT NULL,
+	ProductModelName nvarchar(50) NOT NULL,
+
 	Name nvarchar (50) NOT NULL,
 	ProductNumber nvarchar (25) NOT NULL,
 	MakeFlag nvarchar(15) NOT NULL,
@@ -145,21 +139,6 @@ CREATE TABLE [dbo].[Store_Dim](
 	CONSTRAINT PK_Store_Dim PRIMARY KEY(StoreKey)
 )
 
-CREATE TABLE [dbo].[Subcategory_Hier](
-	SubcategoryKey int IDENTITY(1,1) NOT NULL,
-	SubcategoryID int NOT NULL,
-	CategoryKey_FK int NOT NULL,
-	Name nvarchar(50) NOT NULL,
-	CONSTRAINT PK_SubCategory_Hier PRIMARY KEY(SubcategoryKey)
-)
-
-CREATE TABLE [dbo].[Category_Hier](
-	CategoryKey int IDENTITY(1,1) NOT NULL,
-	CategoryID int NOT NULL,
-	Name nvarchar(50) NOT NULL,
-	CONSTRAINT PK_Category_Hier PRIMARY KEY(CategoryKey)
-)
-
 CREATE TABLE [dbo].[CountryRegion_Hier](
 	CountryRegionKey int IDENTITY(1,1) NOT NULL,
 	CountryRegionID nvarchar(3) NOT NULL,
@@ -177,12 +156,6 @@ CREATE TABLE [dbo].[StateProvince_Hier](
 	CONSTRAINT PK_StateProvince_Hier PRIMARY KEY(StateProvinceKey)
 )
 
-CREATE TABLE [dbo].[ProductModel_Hier](
-	ProductModelKey int IDENTITY(1,1) NOT NULL,
-	ProductModelID int NOT NULL,
-	Name nvarchar(50) NOT NULL,
-	CONSTRAINT PK_ProductModel_Hier PRIMARY KEY(ProductModelKey)
-)
 
 CREATE TABLE [dbo].[Sales_Fact](
 	ProductKey_FK int,
@@ -204,11 +177,8 @@ CREATE TABLE [dbo].[Sales_Fact](
 )
 
 
-ALTER TABLE [dbo].[Product_Dim] WITH CHECK ADD CONSTRAINT FK_Product_Dim_Subcatergory_Hier FOREIGN KEY (SubcategoryKey_FK) REFERENCES Subcategory_Hier(SubcategoryKey);
-ALTER TABLE [dbo].[Product_Dim] WITH CHECK ADD CONSTRAINT FK_Product_Dim_ProductModel_Hier FOREIGN KEY (ProductModelKey_FK) REFERENCES ProductModel_Hier(ProductModelKey);	
 ALTER TABLE [dbo].[Territory_Dim] WITH CHECK ADD CONSTRAINT FK_Territory_Dim_CountryRegion_Hier FOREIGN KEY(CountryRegionKey_FK) REFERENCES CountryRegion_Hier(CountryRegionKey);
 ALTER TABLE [dbo].[Address_Dim] WITH CHECK ADD	CONSTRAINT FK_Adress_Dim_StateProvince_Hier FOREIGN KEY (StateProvinceKey_FK) REFERENCES StateProvince_Hier(StateProvinceKey);
-ALTER TABLE [dbo].[Subcategory_Hier] WITH CHECK ADD CONSTRAINT FK_Subcategory_Hier_Category_Hier FOREIGN KEY (CategoryKey_FK) REFERENCES Category_Hier(CategoryKey);
 ALTER TABLE [dbo].[StateProvince_Hier] WITH CHECK ADD CONSTRAINT FK_StateProvince_Hier_CountryRegion_Hier FOREIGN KEY (CountryRegionKey_FK) REFERENCES CountryRegion_Hier(CountryRegionKey); 
 
 ALTER TABLE [dbo].[Sales_Fact] WITH CHECK ADD CONSTRAINT FK_Sales_Fact_Product_Dim FOREIGN KEY(ProductKey_FK) REFERENCES Product_Dim(ProductKey); 

@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{4BC73AEE-010D-441F-AF98-361B852E3486}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{49CE38AA-8C96-4D94-BBA0-1139CB077BBA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2838,9 +2838,7 @@ where [refTable].[SalesPersonID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,16.25,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
