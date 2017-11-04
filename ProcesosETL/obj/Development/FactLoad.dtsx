@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{49CE38AA-8C96-4D94-BBA0-1139CB077BBA}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{CD272090-FD00-49AD-89E8-18B16B5D3B0F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2720,6 +2720,10 @@ where [refTable].[SalesPersonID] = ?</property>
           Id="Package\Load Fact Table\Asignar Tienda Online"
           TopLeft="120,270" />
         <NodeLayout
+          Size="121,42"
+          Id="Package\Load Fact Table\Union All"
+          TopLeft="379,571" />
+        <NodeLayout
           Size="212,42"
           Id="Package\Load Fact Table\Separar los diferentes Casos"
           TopLeft="277,190" />
@@ -2735,10 +2739,6 @@ where [refTable].[SalesPersonID] = ?</property>
           Size="181,42"
           Id="Package\Load Fact Table\Load Sales Fact Table"
           TopLeft="285,23" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Load Fact Table\Union All"
-          TopLeft="379,571" />
         <NodeLayout
           Size="195,42"
           Id="Package\Load Fact Table\Asignar Vendedor Online"
@@ -3063,7 +3063,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3086,7 +3086,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3096,7 +3096,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3117,7 +3117,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3127,7 +3127,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3140,7 +3140,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3150,7 +3150,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
