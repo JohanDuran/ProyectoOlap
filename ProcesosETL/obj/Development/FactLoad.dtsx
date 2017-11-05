@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{CD272090-FD00-49AD-89E8-18B16B5D3B0F}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{4B527B8E-775B-4959-9DEF-A0002757B26F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2678,7 +2678,7 @@ where [refTable].[SalesPersonID] = ?</property>
           Id="Package\Clear Fact Table"
           TopLeft="345,50" />
         <NodeLayout
-          Size="154,43"
+          Size="154,42"
           Id="Package\Load Fact Table"
           TopLeft="344,129" />
         <EdgeLayout
@@ -2815,7 +2815,7 @@ where [refTable].[SalesPersonID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-98.07453125,17.9813664596273,75.1490625,9.7490234375"
+              BoundingBox="-106.555,17.9813664596273,92.11,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -2873,7 +2873,7 @@ where [refTable].[SalesPersonID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="60.531875,19.3478260869565,89.93625,9.7978515625"
+              BoundingBox="52.03431640625,19.3478260869565,106.9313671875,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -2896,7 +2896,9 @@ where [refTable].[SalesPersonID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-8,12.75,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3073,7 +3075,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
