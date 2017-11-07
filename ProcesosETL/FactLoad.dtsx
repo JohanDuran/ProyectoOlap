@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{8C1BF3DE-0788-4D7B-9B94-C3218957894C}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{4B527B8E-775B-4959-9DEF-A0002757B26F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\kenca\source\repos\MDPracticasOLAP\Error Fact_Table.txt">
+          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error Fact_Table.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{7EC80DBD-8C03-4CB8-AE5F-EA169CCC184B}"
+              DTS:DTSID="{9963A791-806B-4662-AA82-E431333D7502}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -45,7 +45,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DueDate"
-              DTS:DTSID="{54964837-5189-4AE6-8170-026A6EDA95AE}"
+              DTS:DTSID="{C87461C8-9CB7-4B1B-ABA0-FF1D7325AB0D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -53,7 +53,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipDate"
-              DTS:DTSID="{693AD08A-3533-40F6-8FCF-F87CFC0DF563}"
+              DTS:DTSID="{FBDA0A84-647F-4837-92EC-4831F5D72459}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -61,7 +61,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductKey"
-              DTS:DTSID="{73A6D83A-AB8C-41F9-B578-CFA38870058D}"
+              DTS:DTSID="{AFED0361-28FC-4DEE-A370-5B0B57A26BC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -69,7 +69,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesTerritory"
-              DTS:DTSID="{7E156D48-ED5A-4509-8D33-3A566333EA49}"
+              DTS:DTSID="{071321FF-C407-4FB2-B9A9-8F1DE9D360ED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonTerritory"
-              DTS:DTSID="{84E10D11-DE29-49D9-91C2-737DD67804D8}"
+              DTS:DTSID="{E824F9E4-F3A8-4F28-A98D-4D59EB60DC6D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +85,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="BillTo"
-              DTS:DTSID="{8877D8A6-0A70-4CEB-86D4-559E1A397317}"
+              DTS:DTSID="{9C19A28C-1C3A-4062-92AE-0DAB74FEE7D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipTo"
-              DTS:DTSID="{0BF42913-CCA4-4D42-B3D7-46D456EC060A}"
+              DTS:DTSID="{721B2385-BEEB-489F-8CB4-6710B555FEE6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonKey"
-              DTS:DTSID="{F274EAB2-81FD-484D-91DB-0525B082294E}"
+              DTS:DTSID="{FC533C08-5EB9-40AE-AC33-441CE1B18C62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -109,7 +109,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreKey"
-              DTS:DTSID="{621C46DC-7EF9-48DD-9A25-02466B66F24C}"
+              DTS:DTSID="{6E550A79-DA25-4A7C-8AB4-350471221A5A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -117,7 +117,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="OnlineOrderFlag"
-              DTS:DTSID="{A6E28319-7192-40BC-A7E7-17E775A69262}"
+              DTS:DTSID="{A64B2657-83F0-44EF-834A-6D156C7D7FB6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesOrderID"
-              DTS:DTSID="{1B1A0456-7153-4353-9608-8BA3AB898032}"
+              DTS:DTSID="{35FABB41-B32F-4AEE-8C4B-784B8B3FC19F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -133,7 +133,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{650CC694-0C1F-46B8-933E-5F0CC46FB4F8}"
+              DTS:DTSID="{71C5AC81-EDBB-4758-813D-2D302494B0E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -141,7 +141,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderQty"
-              DTS:DTSID="{3E571533-EE2B-4B5A-890F-2FCD883CBE01}"
+              DTS:DTSID="{0AC4DC00-1E1C-43A1-9483-ADFF933B511F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -151,7 +151,7 @@
               DTS:DataScale="6"
               DTS:TextQualified="True"
               DTS:ObjectName="LineTotal"
-              DTS:DTSID="{134115E6-7820-4DFD-9CF3-9E58362D4C10}"
+              DTS:DTSID="{F0A6BC96-2B1B-4B13-A9F8-99AFE7C4844B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +159,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{AEDD7C12-95DA-408F-9BBD-B791435CDB84}"
+              DTS:DTSID="{BD5C62E1-40EF-47F4-AEE1-73D992E2081A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +167,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{203AB10B-2E65-49E2-8421-384ED032F56E}"
+              DTS:DTSID="{6538B568-C2BB-465D-B98E-109A1179E1E6}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -186,7 +186,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\kenca\source\repos\MDPracticasOLAP\Error Territorio del Vendedor Online.txt">
+          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error Territorio del Vendedor Online.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,7 +194,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{7C341B5C-8158-40AF-B453-607420C54678}"
+              DTS:DTSID="{4180EAC8-D6C0-42B8-B177-9CAA9EF9AD9D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -202,7 +202,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DueDate"
-              DTS:DTSID="{76C83696-7617-41EB-8813-B38B4DE48492}"
+              DTS:DTSID="{FA2BC550-0761-4C68-B1F9-E904024BA1A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -210,7 +210,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipDate"
-              DTS:DTSID="{8CFDE435-CBA1-4830-A0DB-6642E4C9DBCF}"
+              DTS:DTSID="{F1BFDCE4-C2A9-452D-9983-B9968615EA1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductKey"
-              DTS:DTSID="{7B2BEC1B-54D0-409F-9CAA-E4A1ABAFF067}"
+              DTS:DTSID="{505A87B3-E97C-4E4C-9984-9718D4530EAA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -226,7 +226,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesTerritory"
-              DTS:DTSID="{F1756F1F-28FF-41C5-992A-99AD3CFE095D}"
+              DTS:DTSID="{633AA9B7-A00D-4D1A-82C0-734FDE223885}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -234,7 +234,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonTerritory"
-              DTS:DTSID="{96C96D5F-29F6-496F-A28F-044CCB27ACF5}"
+              DTS:DTSID="{9057CD66-2D93-4685-B8EE-50871CC4B3BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -242,7 +242,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="BillTo"
-              DTS:DTSID="{81183CD0-B157-44CC-9D03-D9C96FF2E050}"
+              DTS:DTSID="{BE2A5E37-167C-40EA-A046-373F48423CCC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipTo"
-              DTS:DTSID="{385EAE49-EEC7-48F3-AB51-8E12C15B5432}"
+              DTS:DTSID="{F9450F9B-C96D-45CE-A5FD-D651A9DC6469}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -258,7 +258,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="OnlineOrderFlag"
-              DTS:DTSID="{E30B48A9-B7E9-4040-98AE-6D0A3567817D}"
+              DTS:DTSID="{95547081-C866-447D-AA46-71E028DFE859}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -266,7 +266,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesOrderID"
-              DTS:DTSID="{928EAE72-E669-42FF-8C27-CAD062B789CC}"
+              DTS:DTSID="{093AFAEB-7904-4620-8F34-1CE8B624B2DC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -274,7 +274,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{034FFDB5-6E8A-4A2B-AE01-D0988DFCD5F6}"
+              DTS:DTSID="{19B7F4AF-84B1-4221-AE72-0D072CFC466F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -282,7 +282,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderQty"
-              DTS:DTSID="{691CEBCB-E3DC-4C5E-B66B-17F2C1F29A25}"
+              DTS:DTSID="{CD707E62-82DE-4714-9654-D35F20C15299}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +292,7 @@
               DTS:DataScale="6"
               DTS:TextQualified="True"
               DTS:ObjectName="LineTotal"
-              DTS:DTSID="{2E4D817B-FCA7-4AD4-9384-FD13A7D2078C}"
+              DTS:DTSID="{CCB4CE0C-7C75-449B-87F0-AEC2BF63A632}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -300,7 +300,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonKey"
-              DTS:DTSID="{416A020B-11AF-4789-B453-09A8A21045FE}"
+              DTS:DTSID="{31C53255-8E8B-4028-B198-E8AB817D5573}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -308,7 +308,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreKey"
-              DTS:DTSID="{40400077-A1DA-45C2-9AE9-256F84DBBDF0}"
+              DTS:DTSID="{F4724F56-F95E-4626-848B-6459EAE97F6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -316,7 +316,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{3E01E541-1E69-4690-AB6A-4F1843454CC8}"
+              DTS:DTSID="{5FF39CF1-F063-4085-9ED2-B62A13F0E79D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -324,7 +324,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{A7F23459-5CB9-4043-BF4D-B7A0360275D5}"
+              DTS:DTSID="{73AD37BA-0E13-4FBE-AB8E-EA2A60E62C5B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -337,7 +337,7 @@
       DTS:ObjectName="KENNETHCALVO.AdventuresWorksSales_ElkaDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -347,7 +347,7 @@
       DTS:ObjectName="KENNETHCALVO.AdventureWorksSales_Elka">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1636,17 +1636,17 @@ where [refTable].[SalesPersonID] = ?</property>
                       externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[ShipDateKey_FK]"
                       lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[ShipDate]" />
                     <inputColumn
-                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[OrderQty]"
-                      cachedDataType="i2"
-                      cachedName="OrderQty"
-                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderQty]"
-                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]" />
-                    <inputColumn
                       refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[StoreKey]"
                       cachedDataType="i4"
                       cachedName="StoreKey"
                       externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[StoreKey_FK]"
                       lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[StoreKey]" />
+                    <inputColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesPersonKey]"
+                      cachedDataType="i4"
+                      cachedName="SalesPersonKey"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonKey_FK]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]" />
                     <inputColumn
                       refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesOrderID]"
                       cachedDataType="i4"
@@ -1654,11 +1654,11 @@ where [refTable].[SalesPersonID] = ?</property>
                       externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesOrderID]"
                       lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesOrderID]" />
                     <inputColumn
-                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[SalesPersonKey]"
-                      cachedDataType="i4"
-                      cachedName="SalesPersonKey"
-                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesPersonKey_FK]"
-                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[SalesPersonKey]" />
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].Columns[OrderQty]"
+                      cachedDataType="i2"
+                      cachedName="OrderQty"
+                      externalMetadataColumnId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderQty]"
+                      lineageId="Package\Load Fact Table\Union All.Outputs[Union All Output 1].Columns[OrderQty]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1703,10 +1703,6 @@ where [refTable].[SalesPersonID] = ?</property>
                       dataType="i4"
                       name="StoreKey_FK" />
                     <externalMetadataColumn
-                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesOrderID]"
-                      dataType="i4"
-                      name="SalesOrderID" />
-                    <externalMetadataColumn
                       refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[LineTotal]"
                       dataType="i4"
                       name="LineTotal" />
@@ -1718,6 +1714,10 @@ where [refTable].[SalesPersonID] = ?</property>
                       refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OnLineOrderFlag]"
                       dataType="bool"
                       name="OnLineOrderFlag" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[SalesOrderID]"
+                      dataType="i4"
+                      name="SalesOrderID" />
                     <externalMetadataColumn
                       refId="Package\Load Fact Table\Sales Fact Table.Inputs[OLE DB Destination Input].ExternalColumns[OrderQty]"
                       dataType="i4"
@@ -2678,7 +2678,7 @@ where [refTable].[SalesPersonID] = ?</property>
           Id="Package\Clear Fact Table"
           TopLeft="345,50" />
         <NodeLayout
-          Size="154,43"
+          Size="154,42"
           Id="Package\Load Fact Table"
           TopLeft="344,129" />
         <EdgeLayout
@@ -2815,7 +2815,7 @@ where [refTable].[SalesPersonID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-98.07453125,17.9813664596273,75.1490625,9.7490234375"
+              BoundingBox="-106.555,17.9813664596273,92.11,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -2873,7 +2873,7 @@ where [refTable].[SalesPersonID] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="60.531875,19.3478260869565,89.93625,9.7978515625"
+              BoundingBox="52.03431640625,19.3478260869565,106.9313671875,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -2896,7 +2896,9 @@ where [refTable].[SalesPersonID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-8,12.75,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3063,7 +3065,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3073,7 +3075,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3086,7 +3088,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3096,7 +3098,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3117,7 +3119,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3127,7 +3129,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3140,7 +3142,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3150,7 +3152,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

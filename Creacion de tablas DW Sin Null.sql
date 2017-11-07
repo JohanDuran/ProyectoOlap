@@ -52,7 +52,7 @@ CREATE TABLE [dbo].[Date_Dim](
 	QuaterName nvarchar(2) NOT NULL,
 	--FiscalQuaterName nvarchar(2) NOT NULL,
 	DayOfWeek nvarchar(30) NOT NULL,
-	Weekend varchar(1) NULL,
+	Weekend varchar(1) ,
 	Year int NOT NULL,
 	DayOfYear int NOT NULL,
 	--FiscalYear int NOT NULL,
@@ -75,25 +75,25 @@ CREATE TABLE [dbo].[Product_Dim](
 	MakeFlag_value bit NOT NULL,
 	FinishedGoodsFlag nvarchar(15) NOT NULL,
 	FinishedGoodsFlag_value bit NOT NULL,
-	Color nvarchar (15) NULL,
+	Color nvarchar (15),
 	SafetyStockLevel smallint NOT NULL,
 	ReorderPoint smallint NOT NULL,
 	StandardCost money NOT NULL,
 	ListPrice money NOT NULL,
-	Size nvarchar (15) NULL,
-	SizeUnitMeasureCode nvarchar (15) NULL,
-	WeightUnitMeasureCode nvarchar (15) NULL,
-	Weight decimal (8, 2) NULL,
+	Size nvarchar (15) ,
+	SizeUnitMeasureCode nvarchar (15),
+	WeightUnitMeasureCode nvarchar (15),
+	Weight decimal (8, 2) ,
 	DaysToManufacture int NOT NULL,
-	ProductLine nvarchar (15) NULL,
-	ProductLine_value nvarchar (15) NULL,
-	Class nvarchar (15) NULL,
-	Class_value nvarchar (15) NULL,
-	Style nvarchar (15) NULL,
-	Style_value nvarchar (15) NULL,
+	ProductLine nvarchar (15),
+	ProductLine_value nvarchar (15),
+	Class nvarchar (15) ,
+	Class_value nvarchar (15),
+	Style nvarchar (15) ,
+	Style_value nvarchar (15),
 	SellStartDate datetime NOT NULL,
-	SellEndDate datetime NULL,
-	DiscontinuedDate datetime NULL,
+	SellEndDate datetime ,
+	DiscontinuedDate datetime,
 	CONSTRAINT PK_Product_Dim PRIMARY KEY(ProductKey)
 )
 
@@ -116,14 +116,14 @@ CREATE TABLE [dbo].[Address_Dim](
 	StateProvinceKey_FK int NOT NULL,
 	CityName nvarchar(30) NOT NULL,
 	AddressLine1 nvarchar(60) NOT NULL,
-	AddressLine2 nvarchar(60) NULL,
+	AddressLine2 nvarchar(60),
 	CONSTRAINT PK_Address_Dim PRIMARY KEY(AddressKey)
 )
 
 CREATE TABLE [dbo].[SalesPerson_Dim](
 	SalesPersonKey int IDENTITY(1,1) NOT NULL,
 	SalesPersonID int NOT NULL,
-	SalesQuota money NULL,
+	SalesQuota money ,
 	Bonus money NOT NULL,
 	CommissionPct smallmoney NOT NULL,
 	SalesYTD money NOT NULL,
@@ -135,7 +135,7 @@ CREATE TABLE [dbo].[Store_Dim](
 	StoreKey int IDENTITY(1,1) NOT NULL,
 	StoreID int NOT NULL,
 	Name nvarchar(50) NOT NULL,
-	Demographics xml NULL,
+	Demographics xml ,
 	CONSTRAINT PK_Store_Dim PRIMARY KEY(StoreKey)
 )
 
