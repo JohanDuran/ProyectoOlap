@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="DimensionsLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="148"
-  DTS:VersionGUID="{593085E1-B323-41F1-B82C-510FE2EB7C84}">
+  DTS:VersionBuild="150"
+  DTS:VersionGUID="{EEDC3F5C-9255-419F-BD60-8E7C340E44F7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error ProductSubcategory_ProductCategory.txt">
+          DTS:ConnectionString="C:\Users\kenca\Documents\GitHub\ProyectoOlap\Errores\Error ProductSubcategory_ProductCategory.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{B873A6EF-4354-4721-832B-2DEB7F99F74F}"
+              DTS:DTSID="{9EB9ACCC-2DAE-485D-BF6A-2A27DEF0E42C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{03FB7838-F341-4B02-9EF4-5CD898B3165F}"
+              DTS:DTSID="{C6A47C64-4E1D-44A0-88B8-CA5EB6777D04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -55,7 +55,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNumber"
-              DTS:DTSID="{08457666-EF49-4E12-A178-A6BD8445CA94}"
+              DTS:DTSID="{60F2BA4D-A4AA-4799-8EA1-9708D7117595}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="MakeFlag_value"
-              DTS:DTSID="{B07A7C4C-0EAD-4DE7-9D6E-BFC28F9E1C59}"
+              DTS:DTSID="{83EF5A59-CB14-4F31-BAC8-86CDEA788D4A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -71,7 +71,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="FinishedGoodsFlag_value"
-              DTS:DTSID="{589C91C8-E9E2-461B-9ED8-D1542429AA75}"
+              DTS:DTSID="{82187565-70DA-4BF7-838D-7BD957E135E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Color"
-              DTS:DTSID="{E4FB6528-9976-4919-8712-C1BEBCB7BBEF}"
+              DTS:DTSID="{9DA6EB12-3191-4C3B-B4A4-D7D4FFF7CAA7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -88,7 +88,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="SafetyStockLevel"
-              DTS:DTSID="{0E2633F3-36F5-440B-8C4C-2A320F002304}"
+              DTS:DTSID="{F0252536-3602-4C58-94A6-30F5FD4C4BAD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -96,7 +96,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ReorderPoint"
-              DTS:DTSID="{D2DE908E-9358-4BAF-B922-6EE62E0C283D}"
+              DTS:DTSID="{5775EDAE-4AE0-4665-9721-B0A52929BE1E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardCost"
-              DTS:DTSID="{4A30FD73-7444-46AC-9FD0-0EC8DC101BCE}"
+              DTS:DTSID="{B4D78796-B278-4B3D-955D-F5A720CE966F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="ListPrice"
-              DTS:DTSID="{B97D6F17-F5EA-4BBD-BD19-FFA097089DE0}"
+              DTS:DTSID="{43E44C84-8EAF-435B-A8A8-35453D32A6CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +121,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Size"
-              DTS:DTSID="{340A1341-8099-455E-9E60-1332B7F00947}"
+              DTS:DTSID="{AE74848F-5369-44E6-B0DF-8905E4149CBC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SizeUnitMeasureCode"
-              DTS:DTSID="{2851F773-FCC2-4EE5-9943-3E1A29C3B455}"
+              DTS:DTSID="{E5CE1D1F-02B8-451F-98B1-891DD8DC92FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +139,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeightUnitMeasureCode"
-              DTS:DTSID="{B289E3CA-F06E-42DD-9C4E-F15650293EB6}"
+              DTS:DTSID="{A980A9BC-623A-415E-997B-56B6C5E83741}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -149,7 +149,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{45025C8B-9394-4DC0-86FB-D02DB9FBC742}"
+              DTS:DTSID="{35205FCC-D63E-4C94-A5BB-0CB57DD6758B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +157,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DaysToManufacture"
-              DTS:DTSID="{88360E00-718C-4E16-9952-B3C7ED69AC4C}"
+              DTS:DTSID="{DEDA1A66-92FF-424E-82FC-78EEF2F893CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -166,7 +166,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductLine_value"
-              DTS:DTSID="{5D03642F-87A6-4240-9BA2-08A325F20BA6}"
+              DTS:DTSID="{8AF94AAA-61B8-42B7-838C-70AFD4413003}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -175,7 +175,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Class_value"
-              DTS:DTSID="{74A12DE6-2156-48E9-9224-F43AA0730A2B}"
+              DTS:DTSID="{F135AEBF-7D38-4C56-B558-D6759CD2E672}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -184,7 +184,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Style_value"
-              DTS:DTSID="{15759762-C79A-42AF-A332-51D8FF198A32}"
+              DTS:DTSID="{08CFAA09-D240-4B24-B8C9-942F4531FB22}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -192,7 +192,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductSubcategoryID"
-              DTS:DTSID="{5E946E61-6204-40EB-968E-422C54D3D9F2}"
+              DTS:DTSID="{DF6E1687-70BE-4584-A241-BCCD014019D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,7 +200,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellStartDate"
-              DTS:DTSID="{034D8008-1EE7-4B2B-868B-A2AD9C1C5B65}"
+              DTS:DTSID="{9C55C3F6-27F1-4718-BF3C-7ECAB4CB24D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -208,7 +208,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellEndDate"
-              DTS:DTSID="{9D903000-A465-4ACF-9E25-B9F0F387B9E1}"
+              DTS:DTSID="{8B74CA22-C92A-4C8C-B7D1-8C74BA0B3164}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -216,7 +216,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DiscontinuedDate"
-              DTS:DTSID="{3553196A-9692-460A-93D3-B71175D7A884}"
+              DTS:DTSID="{C5208154-A6D0-4DBF-9B0F-8789B787545A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -224,7 +224,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelID"
-              DTS:DTSID="{CC89303A-F8E6-4814-8AE2-CB6CBC370110}"
+              DTS:DTSID="{DFD3F92E-7914-4107-84B3-BC6EF8C68429}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -233,7 +233,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelName"
-              DTS:DTSID="{BBE18AAF-62D2-488D-9E38-D62B561C3C5B}"
+              DTS:DTSID="{61581905-0E70-4E83-B073-E2F7B5FD804B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -242,7 +242,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductSubcategoryName"
-              DTS:DTSID="{08FF6F5A-1777-4907-AF9C-1FDFCBDC7290}"
+              DTS:DTSID="{2ACC4BEB-F759-406F-8ED7-AD26D3ED58CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductCategoryID"
-              DTS:DTSID="{442D18BF-0446-49B6-AAA5-DEC07F2416CA}"
+              DTS:DTSID="{D2D699A3-55C2-40AA-B27D-6DC005A4BAE5}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -269,7 +269,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Errores_Product_ProductModel.txt">
+          DTS:ConnectionString="C:\Users\kenca\Documents\GitHub\ProyectoOlap\Errores\Errores_Product_ProductModel.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -277,7 +277,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{3BC7B5C8-6C8E-4E5C-A297-319415F5B1F0}"
+              DTS:DTSID="{919E16F0-955A-4661-88DC-3DBE3E42649D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -286,7 +286,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{F8EACF8D-0480-4B9B-BA8B-0104E686C587}"
+              DTS:DTSID="{02751918-2785-4CBF-BBA1-C21A0B56C7FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -295,7 +295,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNumber"
-              DTS:DTSID="{D5635E05-4BEB-44FE-B7CB-54554F3CD93F}"
+              DTS:DTSID="{6808756A-1694-4931-8B9B-26AC1D26B5FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -303,7 +303,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="MakeFlag_value"
-              DTS:DTSID="{33ED5850-1BBE-485E-AE82-8995A00C6F54}"
+              DTS:DTSID="{639FBB88-94E0-4B53-8016-1CC5A2DB23E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -311,7 +311,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="FinishedGoodsFlag_value"
-              DTS:DTSID="{589D4CAE-A406-496A-9167-3AC3BC7DD1D7}"
+              DTS:DTSID="{A2B653B4-95BB-4421-B2C4-BD4E6E156E7A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -320,7 +320,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Color"
-              DTS:DTSID="{D98D1AC1-7850-408A-B6A3-9ED5E52B4A10}"
+              DTS:DTSID="{40C1A4CE-33F4-4CB9-A54A-1E3D2725E662}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -328,7 +328,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="SafetyStockLevel"
-              DTS:DTSID="{13424EC1-777B-4B59-9220-011F2737B65E}"
+              DTS:DTSID="{4932C57B-1E3D-4C16-B338-B5891C6FCD4F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -336,7 +336,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ReorderPoint"
-              DTS:DTSID="{D5D8DB77-321C-47E7-8E6B-4B14F6CC3AB5}"
+              DTS:DTSID="{31ECE85A-AE40-424D-AA0A-2688CC859C58}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -344,7 +344,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardCost"
-              DTS:DTSID="{996D0EE2-F44C-4239-BAE5-EB4D618DB4B5}"
+              DTS:DTSID="{E44BD2AE-7D94-4F28-B622-6D35C8B40F32}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -352,7 +352,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="ListPrice"
-              DTS:DTSID="{7B456DDE-20AE-46AD-A682-0711B17127DD}"
+              DTS:DTSID="{28B990EB-DF85-4190-BB6B-A53EAE6E01E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -361,7 +361,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Size"
-              DTS:DTSID="{F5F2D263-50AF-4BE8-ADD4-B6DB99DFF935}"
+              DTS:DTSID="{F29B8CC4-EE10-4915-B763-A46D368D7049}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -370,7 +370,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SizeUnitMeasureCode"
-              DTS:DTSID="{F1EBC64D-46F3-4688-B5A4-DC9EC46884DD}"
+              DTS:DTSID="{A6FF9102-1FC2-4B98-A023-A49B6C2EDCCA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -379,7 +379,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeightUnitMeasureCode"
-              DTS:DTSID="{14C8FB66-AA03-438D-B8BE-76568242B567}"
+              DTS:DTSID="{E1830C4F-A244-430E-B640-F02129D64B1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -389,7 +389,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{9DF38009-48E4-4A29-812A-2D83B871644E}"
+              DTS:DTSID="{7EAE5B07-13C8-47C0-8145-A3EE8B68BA0E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -397,7 +397,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DaysToManufacture"
-              DTS:DTSID="{7C79D444-2307-4387-9DBB-E6B14FF34F40}"
+              DTS:DTSID="{95758952-8769-4461-8BC0-87EACA701D1A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -406,7 +406,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductLine_value"
-              DTS:DTSID="{FECE845E-4CB0-40F9-B1DB-CCB8F21EF670}"
+              DTS:DTSID="{0FD88933-93EA-460F-8376-0F7F7829CF76}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -415,7 +415,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Class_value"
-              DTS:DTSID="{2EBFD540-4FF1-4635-BE2A-E760011E2594}"
+              DTS:DTSID="{CBC6A5F0-F88B-419A-8AAB-C24D3DA0CA04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -424,7 +424,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Style_value"
-              DTS:DTSID="{512673F2-2C0A-4DE6-A082-3CC08EAE7C22}"
+              DTS:DTSID="{DCD65501-D59C-4BB6-BE92-376303968380}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -432,7 +432,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductSubcategoryID"
-              DTS:DTSID="{7B964B7A-A96F-4C13-8CBD-DE48BB99091C}"
+              DTS:DTSID="{78B31EE7-3E0D-4FBD-837D-815C5F18F446}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -440,7 +440,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellStartDate"
-              DTS:DTSID="{B7ED4E7E-ADFE-407B-A41C-8BE9F6B7CE2F}"
+              DTS:DTSID="{F072DC2F-236A-400A-8791-951374D8547F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -448,7 +448,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellEndDate"
-              DTS:DTSID="{2535A454-952A-4490-8B88-FF3814F97946}"
+              DTS:DTSID="{97415B85-F1CF-4557-A33A-BBBA9EE382BF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -456,7 +456,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DiscontinuedDate"
-              DTS:DTSID="{4AB2487A-E091-49F3-B8D6-7772D4BF9C83}"
+              DTS:DTSID="{DB022EAC-3B9F-4224-ABEF-1850B45D44E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -464,7 +464,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelID"
-              DTS:DTSID="{DA32EF45-4739-420D-BDD4-D1C9E4D13738}"
+              DTS:DTSID="{C4008091-5D9F-43EC-96F9-D91F25C4BA27}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -483,7 +483,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error_Product_ProductSubcategory.txt">
+          DTS:ConnectionString="C:\Users\kenca\Documents\GitHub\ProyectoOlap\Errores\Error_Product_ProductSubcategory.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -491,7 +491,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{9CFA0CE5-BBFE-46D0-9140-67D875B59CF9}"
+              DTS:DTSID="{8208E7C5-96C4-4C13-9599-3C147D17BFD7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -500,7 +500,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{17BB5998-FF79-4BE8-8305-4013F8C363E0}"
+              DTS:DTSID="{6B87179D-1475-4FB4-9103-70F382EB5F59}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -509,7 +509,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNumber"
-              DTS:DTSID="{772A051B-BC1E-4B23-A130-C1BD974D2D68}"
+              DTS:DTSID="{DB5C1BF8-1573-4B26-B131-8A8D2BA7E733}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -517,7 +517,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="MakeFlag_value"
-              DTS:DTSID="{3E0E0324-E818-44E6-8878-C1BB7DABFBF6}"
+              DTS:DTSID="{CFC24BFC-FCEC-40C7-9D6B-8EB9995C7BC8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -525,7 +525,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="FinishedGoodsFlag_value"
-              DTS:DTSID="{1B88533F-4990-449F-B9B9-0E5EFB0AC7F7}"
+              DTS:DTSID="{1138B995-EF2E-4B90-BF8B-9E76D78C5BB4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -534,7 +534,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Color"
-              DTS:DTSID="{E16C49C0-6DC8-4E4B-8895-B9DDB420949A}"
+              DTS:DTSID="{AB27AF2E-6A29-4FAC-A602-D6F126CA5346}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -542,7 +542,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="SafetyStockLevel"
-              DTS:DTSID="{ACCE8201-B3E9-4B9A-BE06-F8EF3ED7A214}"
+              DTS:DTSID="{44EA1B9D-CBC5-4DE2-AA4D-5711C6352529}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -550,7 +550,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ReorderPoint"
-              DTS:DTSID="{4C04C30D-A55F-4C42-BA7C-A93BA088A586}"
+              DTS:DTSID="{942D8EDE-B519-4804-86B3-E5AE00396E97}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -558,7 +558,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardCost"
-              DTS:DTSID="{529C65E7-BB71-4BC6-A78E-B75161B062A2}"
+              DTS:DTSID="{EC29FACF-4944-422F-B0C9-6B8DB557A985}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -566,7 +566,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="ListPrice"
-              DTS:DTSID="{7A2B167A-9A9D-49CA-ABA5-73FB112538D4}"
+              DTS:DTSID="{8AF0727A-7530-4F0B-812B-2170E4515181}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -575,7 +575,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Size"
-              DTS:DTSID="{7218BE6B-13BB-46B0-A01A-00B81780D03E}"
+              DTS:DTSID="{F8703E80-7F0C-4465-BBBC-4BD4BA18DE8B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -584,7 +584,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SizeUnitMeasureCode"
-              DTS:DTSID="{60559F8F-0AB9-4CCF-8F33-59375432C523}"
+              DTS:DTSID="{1030DC12-2E95-4BB1-9056-FACBEC0FFFC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -593,7 +593,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="WeightUnitMeasureCode"
-              DTS:DTSID="{1838298A-0A12-48CD-897B-DD14350A977D}"
+              DTS:DTSID="{2A941B7B-68F0-4602-AE1C-694B6894B601}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -603,7 +603,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{B42182F2-1D43-421D-AC5F-4D136183A809}"
+              DTS:DTSID="{94CEA38D-F2B4-4AB6-9AD0-CB7B24C8F937}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -611,7 +611,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DaysToManufacture"
-              DTS:DTSID="{920339D5-09A0-4B18-AA52-F4C9E41BC9F3}"
+              DTS:DTSID="{4E026E86-F2B6-499B-B16D-ED61C300D77A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -620,7 +620,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductLine_value"
-              DTS:DTSID="{6A24B507-FD61-4393-B42C-6FE941810064}"
+              DTS:DTSID="{F8AFF735-FB94-4BC6-AD25-EA02832F1AAA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -629,7 +629,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Class_value"
-              DTS:DTSID="{58A2AA85-0C2E-47E3-A081-3472AA7452D8}"
+              DTS:DTSID="{3BB24BA0-9553-4D37-BB1C-B632D8B07E50}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -638,7 +638,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Style_value"
-              DTS:DTSID="{CF8FAADD-AF65-45F9-AB5F-7FDCA87B560B}"
+              DTS:DTSID="{4F72CBDE-F209-4AFD-AF07-0DF72D2A051F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -646,7 +646,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductSubcategoryID"
-              DTS:DTSID="{9DA03591-7349-401E-B8D7-4D5C965A4096}"
+              DTS:DTSID="{37AA98E8-27D3-4FF3-8507-5CCC6AEAB61E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -654,7 +654,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellStartDate"
-              DTS:DTSID="{F1D20E20-FB0A-4038-946D-C0F18FBF1140}"
+              DTS:DTSID="{C806A45B-92BC-4093-9671-CE9D2AA807DC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -662,7 +662,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SellEndDate"
-              DTS:DTSID="{E9728840-C121-40A6-9AC0-462EEECA6709}"
+              DTS:DTSID="{99E507B4-7F35-46AE-BB8D-E61F1A5A6125}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -670,7 +670,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DiscontinuedDate"
-              DTS:DTSID="{FFC2716F-69AC-44B4-A63C-5BC346BE4310}"
+              DTS:DTSID="{3FB6529D-386E-4FC9-A7CD-A4F36406DA7A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -678,7 +678,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelID"
-              DTS:DTSID="{60BE1351-D395-4E12-9D91-816DF467118E}"
+              DTS:DTSID="{86723887-7C1C-40CA-8153-24DC88910781}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -687,7 +687,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductModelName"
-              DTS:DTSID="{D48A53CF-E499-495C-A688-05DF23C50C22}"
+              DTS:DTSID="{D26E3C38-C57E-4306-B2FF-DA4A7BA1B29D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -700,7 +700,7 @@
       DTS:ObjectName="LAPTOP-T3A8F6F5.AdventuresWorksSales_ElkaDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -710,7 +710,7 @@
       DTS:ObjectName="LAPTOP-T3A8F6F5\.AdventureWorksSales_Elka">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -8516,44 +8516,44 @@ where [refTable].[ProductModelID] = ?</property>
               startId="Package\Carga de dimensiones\Merge Join StateProvinceID.Outputs[Merge Join Output]" />
             <path
               refId="Package\Carga de dimensiones.Paths[OLE DB Source Output7]"
-              endId="Package\Carga de dimensiones\Destino Store Dim.Inputs[OLE DB Destination Input]"
+              endId="Package\Carga de dimensiones\Sort by ContryRegionID.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\Store Data Source.Outputs[OLE DB Source Output]" />
+              startId="Package\Carga de dimensiones\CountryRegion Data Source 1.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Carga de dimensiones.Paths[OLE DB Source Output6]"
-              endId="Package\Carga de dimensiones\Change NULLs AddressLine2.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\Address Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output5]"
-              endId="Package\Carga de dimensiones\Split null class with and without price.Inputs[Conditional Split Input]"
-              name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\Product Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output4]"
-              endId="Package\Carga de dimensiones\Sort 2 by StateProvinceID.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\StateProvince Data Source 1.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output1]"
-              endId="Package\Carga de dimensiones\Sort 2.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\Date Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output2]"
-              endId="Package\Carga de dimensiones\Sort by CountryRegion Code.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\Territory Data Source.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output]"
               endId="Package\Carga de dimensiones\Destino SalesPerson Dim.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Carga de dimensiones\SalesPerson Data Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output3]"
-              endId="Package\Carga de dimensiones\Sort by ContryRegionID.Inputs[Sort Input]"
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output5]"
+              endId="Package\Carga de dimensiones\Sort by CountryRegion Code.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Carga de dimensiones\CountryRegion Data Source 1.Outputs[OLE DB Source Output]" />
+              startId="Package\Carga de dimensiones\Territory Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output4]"
+              endId="Package\Carga de dimensiones\Sort 2.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Carga de dimensiones\Date Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output1]"
+              endId="Package\Carga de dimensiones\Change NULLs AddressLine2.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Carga de dimensiones\Address Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output2]"
+              endId="Package\Carga de dimensiones\Split null class with and without price.Inputs[Conditional Split Input]"
+              name="OLE DB Source Output"
+              startId="Package\Carga de dimensiones\Product Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output]"
+              endId="Package\Carga de dimensiones\Destino Store Dim.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Carga de dimensiones\Store Data Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[OLE DB Source Output3]"
+              endId="Package\Carga de dimensiones\Sort 2 by StateProvinceID.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Carga de dimensiones\StateProvince Data Source 1.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Carga de dimensiones.Paths[Prediccion de clase]"
               endId="Package\Carga de dimensiones\Derived Clasify according to price.Inputs[Derived Column Input]"
@@ -8561,29 +8561,29 @@ where [refTable].[ProductModelID] = ?</property>
               startId="Package\Carga de dimensiones\Split null class with and without price.Outputs[Prediccion de clase]" />
             <path
               refId="Package\Carga de dimensiones.Paths[Sort Output4]"
+              endId="Package\Carga de dimensiones\Merge Join StateProvinceID.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Carga de dimensiones\Sort 2 by StateProvinceID.Outputs[Sort Output]" />
+            <path
+              refId="Package\Carga de dimensiones.Paths[Sort Output]"
               endId="Package\Carga de dimensiones\Merge Join CountryRegionCode_CountryRegionID.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Carga de dimensiones\Sort by ContryRegionID.Outputs[Sort Output]" />
             <path
-              refId="Package\Carga de dimensiones.Paths[Sort Output]"
+              refId="Package\Carga de dimensiones.Paths[Sort Output1]"
               endId="Package\Carga de dimensiones\Merge Join StateProvinceID.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Carga de dimensiones\Sort by StateProvinceID.Outputs[Sort Output]" />
             <path
-              refId="Package\Carga de dimensiones.Paths[Sort Output1]"
+              refId="Package\Carga de dimensiones.Paths[Sort Output2]"
               endId="Package\Carga de dimensiones\Destino Date Dim.Inputs[OLE DB Destination Input]"
               name="Sort Output"
               startId="Package\Carga de dimensiones\Sort 2.Outputs[Sort Output]" />
             <path
-              refId="Package\Carga de dimensiones.Paths[Sort Output2]"
+              refId="Package\Carga de dimensiones.Paths[Sort Output3]"
               endId="Package\Carga de dimensiones\Merge Join CountryRegionCode_CountryRegionID.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Carga de dimensiones\Sort by CountryRegion Code.Outputs[Sort Output]" />
-            <path
-              refId="Package\Carga de dimensiones.Paths[Sort Output3]"
-              endId="Package\Carga de dimensiones\Merge Join StateProvinceID.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Carga de dimensiones\Sort 2 by StateProvinceID.Outputs[Sort Output]" />
             <path
               refId="Package\Carga de dimensiones.Paths[Union All Output 1]"
               endId="Package\Carga de dimensiones\Lookup of ProductModel.Inputs[Lookup Input]"
@@ -10131,6 +10131,14 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Carga de dimensiones"
           TopLeft="711,393" />
         <NodeLayout
+          Size="208,42"
+          Id="Package\Carga de Jerarquías Nivel 2"
+          TopLeft="713,316" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Carga de Jerarquías Nivel 3"
+          TopLeft="703,239" />
+        <NodeLayout
           Size="184,42"
           Id="Package\Desabilitar Constraints"
           TopLeft="709,42" />
@@ -10146,6 +10154,108 @@ where [refTable].[ProductModelID] = ?</property>
           Size="258,42"
           Id="Package\Limpieza de dimensiones y herarquias"
           TopLeft="665,131" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="794,173">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13,66"
+              Start="0,0"
+              End="13,58.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29"
+                    Point2="0,33"
+                    Point3="4,33" />
+                  <mssgle:LineSegment
+                    End="9,33" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,33"
+                    Point2="13,33"
+                    Point3="13,37" />
+                  <mssgle:LineSegment
+                    End="13,58.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="817,358">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-14.5,35"
+              Start="0,0"
+              End="-14.5,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="-4,17.5" />
+                  <mssgle:LineSegment
+                    End="-10.5,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-10.5,17.5"
+                    Point2="-14.5,17.5"
+                    Point3="-14.5,21.5" />
+                  <mssgle:LineSegment
+                    End="-14.5,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="807,281">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10,35"
+              Start="0,0"
+              End="10,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="4,17.5" />
+                  <mssgle:LineSegment
+                    End="6,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6,17.5"
+                    Point2="10,17.5"
+                    Point3="10,21.5" />
+                  <mssgle:LineSegment
+                    End="10,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="797.5,84">
@@ -10212,116 +10322,6 @@ where [refTable].[ProductModelID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="208,42"
-          Id="Package\Carga de Jerarquías Nivel 2"
-          TopLeft="713,316" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="817,358">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-14.5,35"
-              Start="0,0"
-              End="-14.5,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.5"
-                    Point2="0,17.5"
-                    Point3="-4,17.5" />
-                  <mssgle:LineSegment
-                    End="-10.5,17.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-10.5,17.5"
-                    Point2="-14.5,17.5"
-                    Point3="-14.5,21.5" />
-                  <mssgle:LineSegment
-                    End="-14.5,27.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="208,42"
-          Id="Package\Carga de Jerarquías Nivel 3"
-          TopLeft="703,239" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="794,173">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="13,66"
-              Start="0,0"
-              End="13,58.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,29"
-                    Point2="0,33"
-                    Point3="4,33" />
-                  <mssgle:LineSegment
-                    End="9,33" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9,33"
-                    Point2="13,33"
-                    Point3="13,37" />
-                  <mssgle:LineSegment
-                    End="13,58.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="807,281">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="10,35"
-              Start="0,0"
-              End="10,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.5"
-                    Point2="0,17.5"
-                    Point3="4,17.5" />
-                  <mssgle:LineSegment
-                    End="6,17.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6,17.5"
-                    Point2="10,17.5"
-                    Point3="10,21.5" />
-                  <mssgle:LineSegment
-                    End="10,27.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -10331,9 +10331,29 @@ where [refTable].[ProductModelID] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="171,42"
-          Id="Package\Carga de dimensiones\OLE DB Destination"
-          TopLeft="119.25,644.5" />
+          Size="164,42"
+          Id="Package\Carga de dimensiones\Store Data Source"
+          TopLeft="1195.5,514.5" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Carga de dimensiones\Destino SalesPerson Dim"
+          TopLeft="866,562" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Carga de dimensiones\Lookup for Category"
+          TopLeft="169,488" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Carga de dimensiones\Date Data Source"
+          TopLeft="1394.75,514.25" />
+        <NodeLayout
+          Size="312,42"
+          Id="Package\Carga de dimensiones\Merge Join CountryRegionCode_CountryRegionID"
+          TopLeft="770.5,234.25" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Carga de dimensiones\Destino Date Dim"
+          TopLeft="1392.75,628.25" />
         <NodeLayout
           Size="299,42"
           Id="Package\Carga de dimensiones\No Match Output Product_ProductSubcategory"
@@ -10343,117 +10363,159 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Carga de dimensiones\Union All of new acquire data"
           TopLeft="232,264" />
         <NodeLayout
-          Size="175,42"
-          Id="Package\Carga de dimensiones\Lookup for Category"
-          TopLeft="169,488" />
+          Size="204,42"
+          Id="Package\Carga de dimensiones\StateProvince Data Source 1"
+          TopLeft="1436.25,65.5" />
         <NodeLayout
-          Size="302,42"
-          Id="Package\Carga de dimensiones\Derived NULL control and Columns aggregation 1"
-          TopLeft="38,563.5" />
+          Size="212,42"
+          Id="Package\Carga de dimensiones\Sort by CountryRegion Code"
+          TopLeft="703,152.75" />
         <NodeLayout
-          Size="341,42"
-          Id="Package\Carga de dimensiones\No Match Output ProductSubcategory_ProductCategory"
-          TopLeft="420,551" />
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Carga de dimensiones\Store Data Source"
-          TopLeft="1195.5,514.5" />
-        <NodeLayout
-          Size="236,42"
-          Id="Package\Carga de dimensiones\Derived Clasify according to price"
-          TopLeft="59,191.75" />
+          Size="98,42"
+          Id="Package\Carga de dimensiones\Sort 2"
+          TopLeft="1624.25,575.5" />
         <NodeLayout
           Size="209,42"
           Id="Package\Carga de dimensiones\CountryRegion Data Source 1"
           TopLeft="936.5,67" />
         <NodeLayout
+          Size="180,42"
+          Id="Package\Carga de dimensiones\Destino Territory Dim"
+          TopLeft="843.75,331" />
+        <NodeLayout
+          Size="341,42"
+          Id="Package\Carga de dimensiones\No Match Output ProductSubcategory_ProductCategory"
+          TopLeft="420,551" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Carga de dimensiones\Lookup of ProductModel"
+          TopLeft="266.25,332.5" />
+        <NodeLayout
+          Size="254,42"
+          Id="Package\Carga de dimensiones\Split null class with and without price"
+          TopLeft="208,108" />
+        <NodeLayout
+          Size="213,42"
+          Id="Package\Carga de dimensiones\Change NULLs AddressLine2"
+          TopLeft="1207,88" />
+        <NodeLayout
+          Size="302,42"
+          Id="Package\Carga de dimensiones\Derived NULL control and Columns aggregation 1"
+          TopLeft="38,563.5" />
+        <NodeLayout
+          Size="190,42"
+          Id="Package\Carga de dimensiones\Sort by ContryRegionID"
+          TopLeft="949.5,151" />
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Carga de dimensiones\Derived Clasify according to price"
+          TopLeft="59,191.75" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Carga de dimensiones\OLE DB Destination"
+          TopLeft="119.25,644.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Carga de dimensiones\Destino Store Dim"
+          TopLeft="1189.5,625.5" />
+        <NodeLayout
           Size="191,42"
-          Id="Package\Carga de dimensiones\Sort by StateProvinceID"
-          TopLeft="1214.75,200.5" />
+          Id="Package\Carga de dimensiones\Lookup for Subcategory"
+          TopLeft="134,403" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Carga de dimensiones\Merge Join StateProvinceID"
+          TopLeft="1325.75,301" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Carga de dimensiones\Product Data Source"
+          TopLeft="253,43" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Carga de dimensiones\Sort 2 by StateProvinceID"
+          TopLeft="1448.25,202.25" />
         <NodeLayout
           Size="177,42"
           Id="Package\Carga de dimensiones\Destino Address Dim"
           TopLeft="1344.25,394.5" />
         <NodeLayout
           Size="196,42"
-          Id="Package\Carga de dimensiones\Destino SalesPerson Dim"
-          TopLeft="866,562" />
+          Id="Package\Carga de dimensiones\SalesPerson Data Source"
+          TopLeft="865,439" />
         <NodeLayout
           Size="180,42"
           Id="Package\Carga de dimensiones\Territory Data Source"
           TopLeft="722.25,66.75" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Carga de dimensiones\Product Data Source"
-          TopLeft="253,43" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Carga de dimensiones\Destino Territory Dim"
-          TopLeft="843.75,331" />
-        <NodeLayout
-          Size="209,42"
-          Id="Package\Carga de dimensiones\Merge Join StateProvinceID"
-          TopLeft="1325.75,301" />
-        <NodeLayout
-          Size="196,42"
-          Id="Package\Carga de dimensiones\SalesPerson Data Source"
-          TopLeft="865,439" />
-        <NodeLayout
-          Size="193,42"
-          Id="Package\Carga de dimensiones\Lookup of ProductModel"
-          TopLeft="266.25,332.5" />
-        <NodeLayout
           Size="268,42"
           Id="Package\Carga de dimensiones\No Match Output Product_ProductModel"
           TopLeft="460.25,396.5" />
         <NodeLayout
-          Size="212,42"
-          Id="Package\Carga de dimensiones\Sort by CountryRegion Code"
-          TopLeft="703,152.75" />
-        <NodeLayout
-          Size="254,42"
-          Id="Package\Carga de dimensiones\Split null class with and without price"
-          TopLeft="208,108" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Carga de dimensiones\StateProvince Data Source 1"
-          TopLeft="1436.25,65.5" />
-        <NodeLayout
-          Size="190,42"
-          Id="Package\Carga de dimensiones\Sort by ContryRegionID"
-          TopLeft="949.5,151" />
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Carga de dimensiones\Destino Store Dim"
-          TopLeft="1189.5,625.5" />
-        <NodeLayout
-          Size="162,42"
-          Id="Package\Carga de dimensiones\Date Data Source"
-          TopLeft="1394.75,514.25" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Carga de dimensiones\Sort 2"
-          TopLeft="1624.25,575.5" />
-        <NodeLayout
           Size="191,42"
-          Id="Package\Carga de dimensiones\Lookup for Subcategory"
-          TopLeft="134,403" />
-        <NodeLayout
-          Size="162,42"
-          Id="Package\Carga de dimensiones\Destino Date Dim"
-          TopLeft="1392.75,628.25" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Carga de dimensiones\Sort 2 by StateProvinceID"
-          TopLeft="1448.25,202.25" />
-        <NodeLayout
-          Size="312,42"
-          Id="Package\Carga de dimensiones\Merge Join CountryRegionCode_CountryRegionID"
-          TopLeft="770.5,234.25" />
+          Id="Package\Carga de dimensiones\Sort by StateProvinceID"
+          TopLeft="1214.75,200.5" />
         <NodeLayout
           Size="177,42"
           Id="Package\Carga de dimensiones\Address Data Source"
           TopLeft="1207.25,0.5" />
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[Derived Column Output]"
+          TopLeft="189,605.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15.75,39"
+              Start="0,0"
+              End="15.75,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.5"
+                    Point2="0,19.5"
+                    Point3="4,19.5" />
+                  <mssgle:LineSegment
+                    End="11.75,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11.75,19.5"
+                    Point2="15.75,19.5"
+                    Point3="15.75,23.5" />
+                  <mssgle:LineSegment
+                    End="15.75,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[Conditional Split Default Output]"
+          TopLeft="376,150">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,114"
+              Start="0,0"
+              End="0,106.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,106.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-70.61390625,47.4208984375,141.2278125,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de dimensiones.Paths[Union All Output 1]"
           TopLeft="341,306">
@@ -10489,7 +10551,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Sort Output4]"
+          Id="Package\Carga de dimensiones.Paths[Sort Output]"
           TopLeft="1044.5,193">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10523,7 +10585,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Sort Output3]"
+          Id="Package\Carga de dimensiones.Paths[Sort Output4]"
           TopLeft="1548.25,244.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10557,7 +10619,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Sort Output2]"
+          Id="Package\Carga de dimensiones.Paths[Sort Output3]"
           TopLeft="809,194.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10591,7 +10653,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Sort Output1]"
+          Id="Package\Carga de dimensiones.Paths[Sort Output2]"
           TopLeft="1624.25,602.166666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10625,7 +10687,7 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Sort Output]"
+          Id="Package\Carga de dimensiones.Paths[Sort Output1]"
           TopLeft="1310.25,242.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10696,84 +10758,6 @@ where [refTable].[ProductModelID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de dimensiones.Paths[OLE DB Source Output]"
-          TopLeft="963.5,481">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,81"
-              Start="0,0"
-              End="0,73.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,73.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output1]"
-          TopLeft="1556.75,535.25">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="67.5,61.25"
-              Start="0,0"
-              End="60,61.25">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="29.75,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="29.75,0"
-                    Point2="33.75,0"
-                    Point3="33.75,4" />
-                  <mssgle:LineSegment
-                    End="33.75,57.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33.75,57.25"
-                    Point2="33.75,61.25"
-                    Point3="37.75,61.25" />
-                  <mssgle:LineSegment
-                    End="60,61.25" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output2]"
-          TopLeft="810.625,108.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44.0000000000001"
-              Start="0,0"
-              End="0,36.5000000000001">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output7]"
           TopLeft="1274.5,556.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10795,19 +10779,31 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output3]"
-          TopLeft="1042.75,109">
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output1]"
+          TopLeft="1295.75,42.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42"
+              EndConnector="17.75,45.5"
               Start="0,0"
-              End="0,34.5">
+              End="17.75,38">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="0,18.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.75"
+                    Point2="0,22.75"
+                    Point3="4,22.75" />
+                  <mssgle:LineSegment
+                    End="13.75,22.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="13.75,22.75"
+                    Point2="17.75,22.75"
+                    Point3="17.75,26.75" />
+                  <mssgle:LineSegment
+                    End="17.75,38" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10817,7 +10813,29 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output4]"
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output2]"
+          TopLeft="338,85">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23"
+              Start="0,0"
+              End="0,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output3]"
           TopLeft="1538.25,107.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -10851,19 +10869,119 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output5]"
-          TopLeft="338,85">
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output7]"
+          TopLeft="1042.75,109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,23"
+              EndConnector="0,42"
               Start="0,0"
-              End="0,15.5">
+              End="0,34.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.5" />
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output5]"
+          TopLeft="810.625,108.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.0000000000001"
+              Start="0,0"
+              End="0,36.5000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output4]"
+          TopLeft="1556.75,535.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="67.5,61.25"
+              Start="0,0"
+              End="60,61.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="29.75,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.75,0"
+                    Point2="33.75,0"
+                    Point3="33.75,4" />
+                  <mssgle:LineSegment
+                    End="33.75,57.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33.75,57.25"
+                    Point2="33.75,61.25"
+                    Point3="37.75,61.25" />
+                  <mssgle:LineSegment
+                    End="60,61.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output6]"
+          TopLeft="963.5,481">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,81"
+              Start="0,0"
+              End="0,73.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,73.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimensiones.Paths[Merge Join Output1]"
+          TopLeft="1430.5,343">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.5"
+              Start="0,0"
+              End="0,44">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11105,40 +11223,6 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Derived Column Output]"
-          TopLeft="189,605.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="15.75,39"
-              Start="0,0"
-              End="15.75,31.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.5"
-                    Point2="0,19.5"
-                    Point3="4,19.5" />
-                  <mssgle:LineSegment
-                    End="11.75,19.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="11.75,19.5"
-                    Point2="15.75,19.5"
-                    Point3="15.75,23.5" />
-                  <mssgle:LineSegment
-                    End="15.75,31.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Carga de dimensiones.Paths[Derived Column Output2]"
           TopLeft="177,233.75">
           <EdgeLayout.Curve>
@@ -11173,90 +11257,6 @@ where [refTable].[ProductModelID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Conditional Split Default Output]"
-          TopLeft="376,150">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,114"
-              Start="0,0"
-              End="0,106.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,106.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-70.61390625,47.4208984375,141.2278125,11.658203125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[Merge Join Output1]"
-          TopLeft="1430.5,343">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51.5"
-              Start="0,0"
-              End="0,44">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="213,42"
-          Id="Package\Carga de dimensiones\Change NULLs AddressLine2"
-          TopLeft="1207,88" />
-        <EdgeLayout
-          Id="Package\Carga de dimensiones.Paths[OLE DB Source Output6]"
-          TopLeft="1295.75,42.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="17.75,45.5"
-              Start="0,0"
-              End="17.75,38">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.75" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.75"
-                    Point2="0,22.75"
-                    Point3="4,22.75" />
-                  <mssgle:LineSegment
-                    End="13.75,22.75" />
-                  <mssgle:CubicBezierSegment
-                    Point1="13.75,22.75"
-                    Point2="17.75,22.75"
-                    Point3="17.75,26.75" />
-                  <mssgle:LineSegment
-                    End="17.75,38" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Carga de dimensiones.Paths[Derived Column Output1]"
           TopLeft="1311.875,130">
           <EdgeLayout.Curve>
@@ -11282,33 +11282,7 @@ where [refTable].[ProductModelID] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga de dimensiones\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de dimensiones\Destino Address Dim">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga de dimensiones\Product Data Source">
+    design-time-name="Package\Carga de dimensiones\StateProvince Data Source 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -11357,7 +11331,7 @@ where [refTable].[ProductModelID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga de dimensiones\StateProvince Data Source 1">
+    design-time-name="Package\Carga de dimensiones\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -11371,6 +11345,32 @@ where [refTable].[ProductModelID] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga de dimensiones\Destino Store Dim">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de dimensiones\Product Data Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga de dimensiones\Destino Address Dim">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -11399,11 +11399,15 @@ where [refTable].[ProductModelID] = ?</property>
     design-time-name="Package\Carga de Jerarquías Nivel 2">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="215,42"
-          Id="Package\Carga de Jerarquías Nivel 2\CountryRegion2 Data Source"
-          TopLeft="609,61" />
+          Size="98,42"
+          Id="Package\Carga de Jerarquías Nivel 2\Sort"
+          TopLeft="440,154" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Carga de Jerarquías Nivel 2\StateProvince Data Source"
+          TopLeft="380,60" />
         <NodeLayout
           Size="204,42"
           Id="Package\Carga de Jerarquías Nivel 2\Destino StateProvince Hier"
@@ -11413,51 +11417,13 @@ where [refTable].[ProductModelID] = ?</property>
           Id="Package\Carga de Jerarquías Nivel 2\Merge Join"
           TopLeft="533,244" />
         <NodeLayout
-          Size="204,42"
-          Id="Package\Carga de Jerarquías Nivel 2\StateProvince Data Source"
-          TopLeft="380,60" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Carga de Jerarquías Nivel 2\Sort"
-          TopLeft="440,154" />
+          Size="215,42"
+          Id="Package\Carga de Jerarquías Nivel 2\CountryRegion2 Data Source"
+          TopLeft="609,61" />
         <NodeLayout
           Size="107,42"
           Id="Package\Carga de Jerarquías Nivel 2\Sort 1"
           TopLeft="656,157" />
-        <EdgeLayout
-          Id="Package\Carga de Jerarquías Nivel 2.Paths[Sort Output]"
-          TopLeft="489,196">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="88.6666666666666,48"
-              Start="0,0"
-              End="88.6666666666666,40.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.4498480243161" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.4498480243161"
-                    Point2="0,28.4498480243161"
-                    Point3="4,28.4498480243161" />
-                  <mssgle:LineSegment
-                    End="84.6666666666666,28.4498480243161" />
-                  <mssgle:CubicBezierSegment
-                    Point1="84.6666666666666,28.4498480243161"
-                    Point2="88.6666666666666,28.4498480243161"
-                    Point3="88.6666666666666,32.4498480243161" />
-                  <mssgle:LineSegment
-                    End="88.6666666666666,40.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de Jerarquías Nivel 2.Paths[Sort Output1]"
           TopLeft="709.5,199">
@@ -11489,29 +11455,45 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga de Jerarquías Nivel 2.Paths[OLE DB Source Output]"
-          TopLeft="485.5,102">
+          Id="Package\Carga de Jerarquías Nivel 2.Paths[Sort Output]"
+          TopLeft="489,196">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52"
+              EndConnector="88.6666666666666,48"
               Start="0,0"
-              End="0,44.5">
+              End="88.6666666666666,40.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.5" />
+                    End="0,24.4498480243161" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.4498480243161"
+                    Point2="0,28.4498480243161"
+                    Point3="4,28.4498480243161" />
+                  <mssgle:LineSegment
+                    End="84.6666666666666,28.4498480243161" />
+                  <mssgle:CubicBezierSegment
+                    Point1="84.6666666666666,28.4498480243161"
+                    Point2="88.6666666666666,28.4498480243161"
+                    Point3="88.6666666666666,32.4498480243161" />
+                  <mssgle:LineSegment
+                    End="88.6666666666666,40.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11533,7 +11515,33 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de Jerarquías Nivel 2.Paths[OLE DB Source Output]"
+          TopLeft="485.5,102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11555,7 +11563,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11565,7 +11575,7 @@ where [refTable].[ProductModelID] = ?</property>
     design-time-name="Package\Carga de Jerarquías Nivel 3">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="209,42"
           Id="Package\Carga de Jerarquías Nivel 3\Destino CountryRegion Hier"
@@ -11593,7 +11603,9 @@ where [refTable].[ProductModelID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

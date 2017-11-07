@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProyectoOLAP-Cubo</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>oI+obR7FYXzm+Ll3CP/v3fmG1k0=07/11/2017 12:25:5407/11/2017 12:23:11</TimeStamp>
+        <ID>
+          <String>Adventures Works Sales Elka DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>1F879q9dfAaqVOzdS6VYZpW8CC0=07/11/2017 15:02:0707/11/2017 12:30:21</TimeStamp>
+        <ID>
+          <String>Adventures Works Sales Elka DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vKAXxCN+cV4a+hXi4JHm6uFUbag=07/11/2017 12:38:4107/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Territory Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4u/Yd12vNuovPe2Lbi4CJG8FQ00=07/11/2017 12:38:3607/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Date Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>D21pWb11Hzb41pDVn+SPPJZGAPQ=07/11/2017 12:39:3307/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Store Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WSHprOHwWFRj1QBbsvVsH9UgL/8=07/11/2017 12:41:2307/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Sales Person Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ho1kJve1S84O9HQLHLfkgV05wdk=07/11/2017 12:59:5507/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Product Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vrIQZqozhoDtXsBOVCmbUrSpr0I=07/11/2017 13:10:0307/11/2017 12:31:19</TimeStamp>
+        <ID>
+          <String>Address Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eUDEJpkBRc232kBk+MkPOQYNuIM=07/11/2017 15:06:0707/11/2017 15:02:39</TimeStamp>
+        <ID>
+          <String>Online Sales Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yCnVgo6LTBEOQOygXl4dHsxsKr8=07/11/2017 15:06:0107/11/2017 15:04:57</TimeStamp>
+        <ID>
+          <String>Sales Fact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>dt8wPO1agJPzixaoop0HqbZNn9o=07/11/2017 15:06:3607/11/2017 15:01:133u9Oh/qbhU3nLq3sMMIVUaxlza0=07/11/2017 15:01:1307/11/2017 15:01:13</TimeStamp>
+        <ID>
+          <String>Adventures Works Sales Elka DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>m+MH1W1fN0zOg/6b4gxZfFzRw/A=07/11/2017 12:13:5407/11/2017 12:13:54</TimeStamp>
+      <ID>
+        <String>ProyectoOLAP-Cubo</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-11-07T21:08:11.086667Z</LastDeployed>
+</DeploymentSnapshot>

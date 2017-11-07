@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="FactLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{4B527B8E-775B-4959-9DEF-A0002757B26F}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{9E5C7EF0-EF64-4827-A793-F2077B43D01F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error Fact_Table.txt">
+          DTS:ConnectionString="C:\Users\kenca\Documents\GitHub\ProyectoOlap\Errores\Error Fact_Table.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{9963A791-806B-4662-AA82-E431333D7502}"
+              DTS:DTSID="{2141DA68-6178-48EC-B487-2AF73285444B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -45,7 +45,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DueDate"
-              DTS:DTSID="{C87461C8-9CB7-4B1B-ABA0-FF1D7325AB0D}"
+              DTS:DTSID="{61801C68-286A-467C-8F1A-0D080E8E6405}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -53,7 +53,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipDate"
-              DTS:DTSID="{FBDA0A84-647F-4837-92EC-4831F5D72459}"
+              DTS:DTSID="{724B8150-4A18-4FD1-BBC3-3F1EBAAEAB93}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -61,7 +61,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductKey"
-              DTS:DTSID="{AFED0361-28FC-4DEE-A370-5B0B57A26BC2}"
+              DTS:DTSID="{5072D3F5-8D00-4064-919E-E39AB30FB7F9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -69,7 +69,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesTerritory"
-              DTS:DTSID="{071321FF-C407-4FB2-B9A9-8F1DE9D360ED}"
+              DTS:DTSID="{2A4EFC84-E5CC-4E4B-89B9-FFDFDBBDF0BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonTerritory"
-              DTS:DTSID="{E824F9E4-F3A8-4F28-A98D-4D59EB60DC6D}"
+              DTS:DTSID="{EB0E334E-27B4-4CE2-929D-819151EBD137}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +85,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="BillTo"
-              DTS:DTSID="{9C19A28C-1C3A-4062-92AE-0DAB74FEE7D3}"
+              DTS:DTSID="{C3F8C096-DDF1-445E-8888-7C38BD5FB64C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipTo"
-              DTS:DTSID="{721B2385-BEEB-489F-8CB4-6710B555FEE6}"
+              DTS:DTSID="{4E14EAF0-1060-4CAD-9A62-B34C7EA0DC8E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonKey"
-              DTS:DTSID="{FC533C08-5EB9-40AE-AC33-441CE1B18C62}"
+              DTS:DTSID="{7E600C70-E6ED-4F1E-BF1B-BE60CF3D4D20}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -109,7 +109,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreKey"
-              DTS:DTSID="{6E550A79-DA25-4A7C-8AB4-350471221A5A}"
+              DTS:DTSID="{39BB519B-F9F8-450D-81A2-DF70A724A4FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -117,7 +117,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="OnlineOrderFlag"
-              DTS:DTSID="{A64B2657-83F0-44EF-834A-6D156C7D7FB6}"
+              DTS:DTSID="{18B3A80A-FCA1-4DAE-8C80-9FA8125FE425}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesOrderID"
-              DTS:DTSID="{35FABB41-B32F-4AEE-8C4B-784B8B3FC19F}"
+              DTS:DTSID="{DE268C1E-B12D-4130-889C-925027A1DAD6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -133,7 +133,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{71C5AC81-EDBB-4758-813D-2D302494B0E2}"
+              DTS:DTSID="{22F49095-D0AD-4370-B5E2-BDAA967326A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -141,7 +141,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderQty"
-              DTS:DTSID="{0AC4DC00-1E1C-43A1-9483-ADFF933B511F}"
+              DTS:DTSID="{75BED0CF-7973-49E9-92BF-8C6A1EACC725}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -151,7 +151,7 @@
               DTS:DataScale="6"
               DTS:TextQualified="True"
               DTS:ObjectName="LineTotal"
-              DTS:DTSID="{F0A6BC96-2B1B-4B13-A9F8-99AFE7C4844B}"
+              DTS:DTSID="{89B045D4-B8F2-4CFD-846B-0EBAD0F4C156}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -159,7 +159,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{BD5C62E1-40EF-47F4-AEE1-73D992E2081A}"
+              DTS:DTSID="{04C0CE41-8E69-4F80-85F1-F1C49BBD72C0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +167,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{6538B568-C2BB-465D-B98E-109A1179E1E6}"
+              DTS:DTSID="{73361147-81D4-45E9-9F7B-341391A5AC97}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -186,7 +186,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Johan Duran Cerdas\Google Drive\Documents\UCR\IV año\II semestre\Almacenes y OLAP\Tareas\Tarea proyecto\Error Territorio del Vendedor Online.txt">
+          DTS:ConnectionString="C:\Users\kenca\Documents\GitHub\ProyectoOlap\Errores\Error Territorio del Vendedor Online.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,7 +194,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{4180EAC8-D6C0-42B8-B177-9CAA9EF9AD9D}"
+              DTS:DTSID="{4BE7F74E-4390-4398-A3A6-CFBABD6454CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -202,7 +202,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DueDate"
-              DTS:DTSID="{FA2BC550-0761-4C68-B1F9-E904024BA1A9}"
+              DTS:DTSID="{2E643E02-B259-485D-8342-B5D0E7A0FCF4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -210,7 +210,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipDate"
-              DTS:DTSID="{F1BFDCE4-C2A9-452D-9983-B9968615EA1C}"
+              DTS:DTSID="{6DDA97C4-8C03-45D8-A2EC-088405458DCD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -218,7 +218,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductKey"
-              DTS:DTSID="{505A87B3-E97C-4E4C-9984-9718D4530EAA}"
+              DTS:DTSID="{C034704B-09A9-4B39-96AE-D6FAFF956441}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -226,7 +226,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesTerritory"
-              DTS:DTSID="{633AA9B7-A00D-4D1A-82C0-734FDE223885}"
+              DTS:DTSID="{0E337C12-7C8F-40CC-B988-624668A02EC1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -234,7 +234,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonTerritory"
-              DTS:DTSID="{9057CD66-2D93-4685-B8EE-50871CC4B3BD}"
+              DTS:DTSID="{638F53E6-2094-4B12-92A3-122B691D76E7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -242,7 +242,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="BillTo"
-              DTS:DTSID="{BE2A5E37-167C-40EA-A046-373F48423CCC}"
+              DTS:DTSID="{969E5E76-EF26-4B06-BB7B-E34BD89DF06B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipTo"
-              DTS:DTSID="{F9450F9B-C96D-45CE-A5FD-D651A9DC6469}"
+              DTS:DTSID="{F98CA600-441B-4996-BB0F-BEAE8F68D1CE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -258,7 +258,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="OnlineOrderFlag"
-              DTS:DTSID="{95547081-C866-447D-AA46-71E028DFE859}"
+              DTS:DTSID="{64606ED3-19E7-468B-806D-DC17B937CFCE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -266,7 +266,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesOrderID"
-              DTS:DTSID="{093AFAEB-7904-4620-8F34-1CE8B624B2DC}"
+              DTS:DTSID="{C78080AF-2CD7-4D7A-BAE9-4C3955592B3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -274,7 +274,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{19B7F4AF-84B1-4221-AE72-0D072CFC466F}"
+              DTS:DTSID="{40D2C6DB-BD15-40A6-BAC2-E93C08A6CDA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -282,7 +282,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderQty"
-              DTS:DTSID="{CD707E62-82DE-4714-9654-D35F20C15299}"
+              DTS:DTSID="{0332E232-F76F-45CC-8181-ED719A3029A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +292,7 @@
               DTS:DataScale="6"
               DTS:TextQualified="True"
               DTS:ObjectName="LineTotal"
-              DTS:DTSID="{CCB4CE0C-7C75-449B-87F0-AEC2BF63A632}"
+              DTS:DTSID="{160917C3-6F1C-494F-95FC-C69D8E5F3B44}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -300,7 +300,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesPersonKey"
-              DTS:DTSID="{31C53255-8E8B-4028-B198-E8AB817D5573}"
+              DTS:DTSID="{FE522E3D-9879-4306-B442-C7E06BE115ED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -308,7 +308,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="StoreKey"
-              DTS:DTSID="{F4724F56-F95E-4626-848B-6459EAE97F6B}"
+              DTS:DTSID="{A13C28E1-D33D-4831-8885-7458509BBA37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -316,7 +316,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{5FF39CF1-F063-4085-9ED2-B62A13F0E79D}"
+              DTS:DTSID="{DA0BF56B-DEB4-4212-A07C-39ADC009598E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -324,7 +324,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{73AD37BA-0E13-4FBE-AB8E-EA2A60E62C5B}"
+              DTS:DTSID="{4BCA79ED-F78B-4D95-8765-CD4CEA0CD92E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -337,7 +337,7 @@
       DTS:ObjectName="KENNETHCALVO.AdventuresWorksSales_ElkaDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventuresWorksSales_ElkaDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -347,7 +347,7 @@
       DTS:ObjectName="KENNETHCALVO.AdventureWorksSales_Elka">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-T3A8F6F5\;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=KENNETHCALVO;Initial Catalog=AdventureWorksSales_Elka;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2838,7 +2838,9 @@ where [refTable].[SalesPersonID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -3040,7 +3042,9 @@ where [refTable].[SalesPersonID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3065,7 +3069,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3075,7 +3079,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3088,7 +3092,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3098,7 +3102,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3119,7 +3123,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3129,7 +3133,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3142,7 +3146,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3152,7 +3156,7 @@ where [refTable].[SalesPersonID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
