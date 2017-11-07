@@ -68,14 +68,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vrIQZqozhoDtXsBOVCmbUrSpr0I=07/11/2017 13:10:0307/11/2017 12:31:19</TimeStamp>
+        <TimeStamp>KmRA0Rm4dXYER5Fdt7LN6J7VC4s=07/11/2017 15:20:2407/11/2017 12:31:19</TimeStamp>
         <ID>
           <String>Address Dim</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>eUDEJpkBRc232kBk+MkPOQYNuIM=07/11/2017 15:06:0707/11/2017 15:02:39</TimeStamp>
+        <TimeStamp>8KNGZvGyyEIqYzDJHZqB0xIEPMk=07/11/2017 15:22:4107/11/2017 15:02:39</TimeStamp>
         <ID>
           <String>Online Sales Dim</String>
         </ID>
@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>dt8wPO1agJPzixaoop0HqbZNn9o=07/11/2017 15:06:3607/11/2017 15:01:133u9Oh/qbhU3nLq3sMMIVUaxlza0=07/11/2017 15:01:1307/11/2017 15:01:13</TimeStamp>
+        <TimeStamp>9cA0siQh14NIvwy6n1syLAOVvWs=07/11/2017 15:22:4107/11/2017 15:01:133u9Oh/qbhU3nLq3sMMIVUaxlza0=07/11/2017 15:01:1307/11/2017 15:01:13</TimeStamp>
         <ID>
           <String>Adventures Works Sales Elka DW</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-11-07T21:08:11.086667Z</LastDeployed>
+  <LastDeployed>2017-11-07T21:23:17.9Z</LastDeployed>
 </DeploymentSnapshot>
