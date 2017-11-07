@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>dPjqPmjrC6RRFPBU+AAZspX+ALo=01/11/2017 16:47:4301/11/2017 16:37:36</TimeStamp>
+        <TimeStamp>SXXmppNYBn0QVK4tGlIeHMy9iug=02/11/2017 13:39:4601/11/2017 16:37:36</TimeStamp>
         <ID>
           <String>Adventures Works Sales Elka DW</String>
         </ID>
@@ -89,7 +89,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>VvAXBZTMj/LQT8ORJ3zFOeZxXEw=01/11/2017 21:29:2901/11/2017 16:47:43v7KUzS1anP0VprDvZM1wDUXlA50=01/11/2017 20:13:2801/11/2017 16:47:43</TimeStamp>
+        <TimeStamp>LqMKYhcV33V6B+6kIVnwt2UlAig=02/11/2017 14:05:5401/11/2017 16:47:43v7KUzS1anP0VprDvZM1wDUXlA50=01/11/2017 20:13:2801/11/2017 16:47:43</TimeStamp>
         <ID>
           <String>Adventures Works Sales Elka DW</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-11-02T03:29:39.673333Z</LastDeployed>
+  <LastDeployed>2017-11-02T20:05:58.916667Z</LastDeployed>
 </DeploymentSnapshot>
